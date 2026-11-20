@@ -1,0 +1,9 @@
+model_list:
+  - model_name: auto
+    litellm_params:
+      model: openai/vllm-sr/auto
+      api_base: http://host.docker.internal:8999/v1
+      api_key: dummy
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
+  database_url: os.environ/DATABASE_URL

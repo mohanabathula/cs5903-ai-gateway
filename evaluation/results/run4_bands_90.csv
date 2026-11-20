@@ -1,0 +1,4544 @@
+case_id,product,gold,pred,decision,selected_model,margin,easy,hard,chars,prompt
+case-000444,AROGYA_SANJEEVANI_GCI,medium,medium,medium-route,Qwen3.6-27B,0.0212,0.8812,0.9023,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/6456443 Policy period 12/10/2025 to 11/10/2026
+Name of the
+insured person
+Shalini Bhat Age / Sex 52 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202656475038
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Saanvi Medical Centre
+City Guwahati
+Date and time of admission 02/05/2026 9:30 AM
+Date and time of discharge 05/05/2026 7:15 AM
+Treating doctor Dr Imran Fernandes
+Room category Twin sharing
+Nature of illness or injury Head injury (ICD-10 S06.0)
+If an injury, how it occurred Sustained in a fall at home
+Total amount claimed Rs. 12,412
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Shalini Bhat
+Date: 05/05/2026
+Page 1 of 1
+
+## discharge_summary
+Saanvi Medical Centre
+Guwahati, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Shalini Bhat Age / Sex 52 years / Female
+Admitted 02-May-2026 09:30 hrs Discharged 05-May-2026 07:15 hrs
+Accommodation Twin sharing Length of stay 2 days 21 hours
+Treating doctor Dr Imran Fernandes Regn. No. AMC/1995/56912
+DIAGNOSIS
+Final diagnosis Head injury
+Nature of injury Sustained in a fall at home
+PRESENTING COMPLAINTS
+Shalini Bhat came in with a history of injury to the head following a fall at home, with complaints of headache and giddiness
+since then.
+HISTORY
+The trouble had been going on for a short while before coming in. No first aid or other treatment was tried at home before
+arrival. There is no significant past history.
+ON EXAMINATION
+On admissi"
+case-000645,NEW_INDIA_MEDICLAIM,easy,medium,medium-route,Qwen3.6-27B,-0.0091,0.9311,0.922,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/4454703 Policy period 02.05.2025 to 01.05.2026
+Name of the
+insured person
+Sanjay Pillai Age / Sex 61 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202516524610
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Vasundhara Medical Centre
+City Nashik
+Date and time of admission 13.09.2025 10:00 hrs
+Date and time of discharge 20.09.2025 12:30 hrs
+Treating doctor Dr Rahul Pillai
+Room category General ward
+Nature of illness or injury Knee arthritis (ICD-10 M17.1)
+Treatment or operation Knee replacement
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 13.09.2025 ₹11,200
+2 Nursing charges 13.09.2025 ₹4,800
+3 Surgeon's fee 13.09.2025 ₹72,000
+4 Anaesthetist's fee 13.09.2025 ₹17,200
+5 Operation theatre charges 13.09.2025 ₹59,000
+6 Knee prosthesis 13.09.2025 ₹1,16,500
+7 Consultant visits 13.09.2025 ₹6,000
+8 Pharmacy and medicines 13.09.2025 ₹7,117
+9 Laboratory and imaging 13.09.2025 ₹7,033
+10 Medical consumables (syringes, IV sets) 13.09.2025 ₹1,516
+11 Documentation charges 13.09.2025 ₹600
+12 Digital thermometer 13.09.2025 ₹500
+13 Shoe covers 13.09.2025 ₹1,210
+Room rent per day ₹1,400
+Total amount claimed ₹3,04,676
+Page 1 of 2
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Sanjay Pillai
+Date: 20.09.2025
+Page 2 of 2
+
+## discharge_summary
+Vasundhara Medical Centre
+Nashik, India
+Department of Medical Records
+Discharge Summary
+Patient Sanjay Pillai Age / Sex 61 years / Male
+Admitted 13-"
+case-000475,AROGYA_SANJEEVANI_GCI,medium,easy,easy-route,gemma-12b,-0.0121,0.885,0.8729,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/8528352 Policy period 05/01/2025 to 04/01/2026
+Name of the
+insured person
+Gauri Gupta Age / Sex 58 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202571163903
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Vasundhara Medical Centre
+City Chandigarh
+Date and time of admission 30/12/2025 11:15 PM
+Date and time of discharge 07/01/2026 1:45 AM
+Treating doctor Dr Manoj Menon
+Room category General ward
+Nature of illness or injury Heart failure due to high blood pressure (ICD-10 I11.0)
+Total amount claimed Rs. 1,07,383
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Gauri Gupta
+Date: 07/01/2026
+Page 1 of 1
+
+## discharge_summary
+Vasundhara Medical Centre
+Chandigarh, India
+Department of Medical Records
+Discharge Summary
+Patient Gauri Gupta Age / Sex 58 years / Female
+Admitted 30/12/2025 11:15 PM Discharged 07/01/2026 1:45 AM
+Accommodation General ward Intensive care 2 days
+Length of stay 7 days 2 hours Treating doctor Dr Manoj Menon
+Regn. No. PMC/2015/33889
+Diagnosis
+Final diagnosis Heart failure due to high blood pressure
+Other conditions Type 2 diabetes mellitus
+Presenting Complaints
+Gauri Gupta came in with breathlessness on exertion and swelling of the feet, which had been increasing over the
+recent past.
+History
+The trouble had been going on for some time, and medicines taken at home had not given relief. Gauri Gupta is a
+known case of Type 2 diabetes mellitus.
+On Examination
+On examination, Gauri G"
+case-000692,NEW_INDIA_MEDICLAIM,hard,medium,medium-route,Qwen3.6-27B,0.0123,0.876,0.8883,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/4581253 Policy period 19.03.2025 to 18.03.2026
+Name of the
+insured person
+Deepa Pandey Age / Sex 80 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202597685876
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Saanvi Medical Centre
+City Madurai
+Date and time of admission 30.03.2025 09:45 hrs
+Date and time of discharge 31.03.2025 12:00 hrs
+Treating doctor Dr Deepa Saxena
+Room category Twin sharing
+Nature of illness or injury Concussion with brief loss of consciousness
+If an injury, how it occurred Sustained in a fall from a bicycle
+Total amount claimed ₹30,529
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Deepa Pandey
+Date: 31.03.2025
+Page 1 of 1
+
+## discharge_summary
+Saanvi Medical Centre
+Madurai, India
+Department of Medical Records
+Discharge Summary
+Patient Deepa Pandey Age / Sex 80 years / Female
+Admitted 30 March 2025 9:45 AM Discharged 31 March 2025 12:00 PM
+Accommodation Twin sharing Treating doctor Dr Deepa Saxena
+Regn. No. TNMC/2004/81207
+Diagnosis
+Final diagnosis Concussion with brief loss of consciousness
+Other conditions Dyslipidaemia and Hypothyroidism
+Nature of injury Sustained in a fall from a bicycle
+Presenting Complaints
+Deepa Pandey came in with a head injury following a fall from a bicycle, with a brief loss of consciousness at the
+time of the incident.
+History
+The trouble had been going on since the time of the fall a short while before coming in, and no treatment was tried
+at hom"
+case-000481,AROGYA_SANJEEVANI_GCI,hard,medium,medium-route,Qwen3.6-27B,0.0241,0.8688,0.8929,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/9850511 Policy period 29/04/2025 to 28/04/2026
+Name of the
+insured person
+Nikhil Shetty Age / Sex 19 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202616263583
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Yashodhan Nursing Home
+City Madurai
+Date and time of admission 28/03/2026 6:00 AM
+Date and time of discharge 28/03/2026 1:00 PM
+Treating doctor Dr Gaurav Gupta
+Room category General ward
+Nature of illness or injury Concussion with brief loss of consciousness
+If an injury, how it occurred Sustained in a fall from a bicycle
+Total amount claimed Rs. 4,662
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Nikhil Shetty
+Date: 28/03/2026
+Page 1 of 1
+
+## discharge_summary
+Yashodhan Nursing Home
+Madurai, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Nikhil Shetty Age / Sex 19 years / Male
+Admitted 28 March 2026 06:00 hrs Discharged 28 March 2026 13:00 hrs
+Accommodation General ward Treating doctor Dr Gaurav Gupta
+Regn. No. TNMC/2012/64281
+DIAGNOSIS
+Final diagnosis Concussion with brief loss of consciousness
+Nature of injury Sustained in a fall from a bicycle
+PRESENTING COMPLAINTS
+Nikhil Shetty, a 19-year-old male, was brought in with a history of Concussion with brief loss of consciousness
+following a fall from a bicycle. He had a brief loss of consciousness at the time of the incident and was drowsy on
+arrival.
+HISTORY
+The injury had occurred a short while before admission. No first ai"
+case-000028,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0365,0.9616,0.9251,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/2294136 Policy period 07/04/2025 to 06/04/2026
+Name of the
+insured person
+Jyoti Pillai Age / Sex 74 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202557037087
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Nirmiti Hospital
+City Surat
+Date and time of admission 04/06/2025 5:00 PM
+Date and time of discharge 12/06/2025 11:15 PM
+Treating doctor Dr Nikhil Singh
+Room category Twin sharing
+Nature of illness or injury Diabetic foot infection (ICD-10 E11.5)
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Twin sharing) 04/06/2025 Rs. 22,500
+2 Nursing charges 04/06/2025 Rs. 8,100
+3 Consultant visits 04/06/2025 Rs. 13,500
+4 Pharmacy and medicines 04/06/2025 Rs. 40,621
+5 Laboratory and imaging 04/06/2025 Rs. 10,572
+6 Medical consumables (syringes, IV sets) 04/06/2025 Rs. 1,623
+7 Documentation charges 04/06/2025 Rs. 650
+8 Crepe bandage 04/06/2025 Rs. 120
+9 Attendant food charges 04/06/2025 Rs. 950
+Room rent per day Rs. 2,500
+Total amount claimed Rs. 98,636
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Jyoti Pillai
+Date: 12/06/2025
+Page 1 of 1
+
+## discharge_summary
+Nirmiti Hospital
+Surat, India
+Department of Medical Records
+Discharge Summary
+Patient Jyoti Pillai Age / Sex 74 years / Female
+Admitted 04-Jun-2025 17:00 hrs Discharged 12-Jun-2025 23:15 hrs
+Accommodation Twin sharing Length of stay 8 days 6 hours
+Treating doctor Dr Nikhil Singh Regn. No. GMC/1997/18536
+Diagnosis
+Final diagnosi"
+case-000488,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0343,0.9424,0.908,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/1094187 Policy period 16/12/2025 to 15/12/2026
+Name of the
+insured person
+Sunita Mishra Age / Sex 71 / Female
+Relationship to
+the policyholder
+Parent Claim No. CL202646092785
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Kalpataru Medical Centre
+City Nashik
+Date and time of admission 07/10/2026 6:45 AM
+Date and time of discharge 13/10/2026 4:15 AM
+Treating doctor Dr Aarti Pandey
+Room category Twin sharing
+Nature of illness or injury Broken hip (ICD-10 S72.0)
+Treatment or operation Hip replacement
+If an injury, how it occurred Sustained in a fall from a two-wheeler
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Twin sharing) 07/10/2026 Rs. 22,200
+2 Nursing charges 07/10/2026 Rs. 4,200
+3 Surgeon's fee 07/10/2026 Rs. 96,500
+4 Anaesthetist's fee 07/10/2026 Rs. 27,000
+5 Operation theatre charges 07/10/2026 Rs. 53,500
+6 Hip prosthesis 07/10/2026 Rs. 1,42,500
+7 Consultant visits 07/10/2026 Rs. 5,400
+8 Pharmacy and medicines 07/10/2026 Rs. 12,659
+9 Laboratory and imaging 07/10/2026 Rs. 4,334
+10 Medical consumables (syringes, IV sets) 07/10/2026 Rs. 754
+11 Admission kit 07/10/2026 Rs. 1,360
+12 Consultation before admission 08/09/2026 Rs. 700
+13 Tests before admission 26/09/2026 Rs. 2,010
+14 Follow-up consultation 25/12/2026 Rs. 1,150
+Page 1 of 2
+Sl Particulars Date Amount
+15 Medicines after discharge 01/11/2026 Rs. 3,780
+Room rent per day Rs. 3,700
+Total amount claimed Rs. 3,78,047
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information"
+case-000654,NEW_INDIA_MEDICLAIM,hard,medium,medium-route,Qwen3.6-27B,0.0115,0.8822,0.8938,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/3611811 Policy period 14.11.2025 to 13.11.2026
+Name of the
+insured person
+Usha Reddy Age / Sex 10 / Female
+Relationship to
+the policyholder
+Child Claim No. CL202579934639
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Yashodhan Medical Centre
+City Lucknow
+Date and time of admission 14.12.2025 00:30 hrs
+Date and time of discharge 14.12.2025 08:00 hrs
+Treating doctor Dr Amit Reddy
+Room category Not applicable
+Nature of illness or injury Chronic recurrent tonsillitis
+Treatment or operation Coblation tonsillectomy
+Total amount claimed ₹44,528
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Usha Reddy
+Date: 14.12.2025
+Page 1 of 1
+
+## discharge_summary
+Yashodhan Medical Centre
+Lucknow, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Usha Reddy Age / Sex 10 years / Female
+Admitted 14 December 2025 00:30 hrs Discharged 14 December 2025 08:00 hrs
+Treating doctor Dr Amit Reddy Regn. No. UPMC/2020/93622
+DIAGNOSIS
+Final diagnosis Chronic recurrent tonsillitis
+Procedure performed Coblation tonsillectomy
+PRESENTING COMPLAINTS
+Usha Reddy came in with complaints of recurrent sore throat and difficulty in swallowing, which had been troubling her for a
+long time.
+HISTORY
+The trouble had been going on for a long time, with episodes of throat pain and fever that kept coming back. She had been
+treated with medicines on and off before coming in. There was no significant past history otherwise.
+ON EXAMINATION
+On exami"
+case-000727,NEW_INDIA_MEDICLAIM,easy,easy,easy-route,gemma-12b,-0.0294,0.9465,0.9171,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/7936205 Policy period 22.10.2025 to 21.10.2026
+Name of the
+insured person
+Sana Menon Age / Sex 63 / Female
+Relationship to
+the policyholder
+Parent Claim No. CL202696020023
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Suryoday Multispeciality Hospital
+City Vadodara
+Date and time of admission 19.07.2026 03:30 hrs
+Date and time of discharge 22.07.2026 08:15 hrs
+Treating doctor Dr Suresh Rao
+Room category Twin sharing
+Nature of illness or injury Gallstones (ICD-10 K80.2)
+Treatment or operation Gall bladder removal
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Twin sharing) 19.07.2026 ₹10,400
+2 Nursing charges 19.07.2026 ₹1,600
+3 Surgeon's fee 19.07.2026 ₹36,000
+4 Anaesthetist's fee 19.07.2026 ₹7,900
+5 Operation theatre charges 19.07.2026 ₹22,500
+6 Consultant visits 19.07.2026 ₹2,600
+7 Pharmacy and medicines 19.07.2026 ₹6,790
+8 Laboratory and imaging 19.07.2026 ₹6,479
+9 Medical consumables (syringes, IV sets) 19.07.2026 ₹2,592
+10 Air conditioner charges 19.07.2026 ₹930
+Room rent per day ₹2,600
+Total amount claimed ₹97,791
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Page 1 of 2
+Signature of the insured person: Sana Menon
+Date: 22.07.2026
+Page 2 of 2
+
+## discharge_summary
+Suryoday Multispeciality Hospital
+Vadodara, India
+Department of Medical Records
+Discharge Summary
+Patient Sana Menon Age / Sex 63 years / Female
+Admitted 19-Jul-2026 03:30 hrs Discharged 22-Jul-2026 08:15 hrs
+Accommodation Twin sharing Length of stay 3 da"
+case-000628,NEW_INDIA_MEDICLAIM,easy,easy,easy-route,gemma-12b,-0.0297,0.9482,0.9185,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/7124283 Policy period 05.03.2025 to 04.03.2026
+Name of the
+insured person
+Deepak Pillai Age / Sex 45 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202627874199
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Suryoday Nursing Home
+City Nagpur
+Date and time of admission 20.02.2026 02:45 hrs
+Date and time of discharge 24.02.2026 07:30 hrs
+Treating doctor Dr Ishita Singh
+Room category General ward
+Nature of illness or injury Heart attack (ICD-10 I21.9)
+Treatment or operation Angioplasty with stent
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 20.02.2026 ₹7,000
+2 Nursing charges 20.02.2026 ₹3,000
+3 Surgeon's fee 20.02.2026 ₹49,000
+4 Anaesthetist's fee 20.02.2026 ₹9,800
+5 Operation theatre charges 20.02.2026 ₹36,500
+6 Coronary stent 20.02.2026 ₹33,500
+7 Consultant visits 20.02.2026 ₹3,750
+8 Pharmacy and medicines 20.02.2026 ₹9,586
+9 Laboratory and imaging 20.02.2026 ₹2,662
+10 Medical consumables (syringes, IV sets) 20.02.2026 ₹1,608
+11 Alcohol swabs 20.02.2026 ₹560
+12 Air conditioner charges 20.02.2026 ₹210
+13 Urine bag 20.02.2026 ₹160
+Room rent per day ₹1,400
+Total amount claimed ₹1,57,336
+Page 1 of 2
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Deepak Pillai
+Date: 24.02.2026
+Page 2 of 2
+
+## discharge_summary
+Suryoday Nursing Home
+Nagpur, India
+Department of Medical Records
+Discharge Summary
+Patient Deepak Pillai Age / Sex 45 years / Male
+Admitted 20/02/2026 2:45 AM D"
+case-000487,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0459,0.9654,0.9195,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/9089083 Policy period 11/03/2025 to 10/03/2026
+Name of the
+insured person
+Kavita Verma Age / Sex 36 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202692356768
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Pranjal AYUSH Hospital
+City Jaipur
+Date and time of admission 01/03/2026 8:45 AM
+Date and time of discharge 10/03/2026 5:45 AM
+Treating doctor Dr Bhavna Menon
+Room category General ward
+Nature of illness or injury Low back pain (ICD-10 M54.5)
+System of medicine Homeopathy
+Type of facility Registered AYUSH hospital
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 01/03/2026 Rs. 10,800
+2 Nursing charges 01/03/2026 Rs. 2,250
+3 Kati basti therapy 01/03/2026 Rs. 15,750
+4 Consultant visits 01/03/2026 Rs. 7,650
+5 Pharmacy and medicines 01/03/2026 Rs. 3,578
+6 Laboratory and imaging 01/03/2026 Rs. 1,245
+7 Medical consumables (syringes, IV sets) 01/03/2026 Rs. 1,854
+8 Admission kit 01/03/2026 Rs. 510
+9 Attendant food charges 01/03/2026 Rs. 1,490
+Room rent per day Rs. 1,200
+Total amount claimed Rs. 45,127
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Page 1 of 2
+Signature of the insured person: Kavita Verma
+Date: 10/03/2026
+Page 2 of 2
+
+## discharge_summary
+Pranjal AYUSH Hospital
+Jaipur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Kavita Verma Age / Sex 36 years / Female
+Admitted 01.03.2026 08:45 hrs Discharged 10.03.2026 05:45 hrs
+Accommodation General ward Length of stay 8 days 21 h"
+case-000664,NEW_INDIA_MEDICLAIM,easy,easy,easy-route,gemma-12b,-0.0318,0.9449,0.9131,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/9107244 Policy period 02.07.2025 to 01.07.2026
+Name of the
+insured person
+Ishita Desai Age / Sex 37 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202646334258
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Devika Superspeciality Hospital
+City Surat
+Date and time of admission 20.08.2026 09:30 hrs
+Date and time of discharge 28.08.2026 07:15 hrs
+Treating doctor Dr Yamini Sharma
+Room category General ward
+Nature of illness or injury Acute pancreatitis (ICD-10 K85.9)
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 20.08.2026 ₹9,600
+2 Nursing charges 20.08.2026 ₹6,400
+3 Consultant visits 20.08.2026 ₹7,600
+4 Pharmacy and medicines 20.08.2026 ₹44,560
+5 Laboratory and imaging 20.08.2026 ₹16,527
+6 Medical consumables (syringes, IV sets) 20.08.2026 ₹2,524
+7 Laundry charges 20.08.2026 ₹1,160
+Room rent per day ₹1,200
+Total amount claimed ₹88,371
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Ishita Desai
+Date: 28.08.2026
+Page 1 of 1
+
+## discharge_summary
+Devika Superspeciality Hospital
+Surat, India
+Department of Medical Records
+Discharge Summary
+Patient Ishita Desai Age / Sex 37 years / Female
+Admitted 20 August 2026 09:30 hrs Discharged 28 August 2026 07:15 hrs
+Accommodation General ward Length of stay 7 days 21 hours
+Treating doctor Dr Yamini Sharma Regn. No. GMC/2015/38581
+Diagnosis
+Final diagnosis Acute pancreatitis
+Presenting Complaints
+Ishita Desai came in with pain in t"
+case-000096,AROGYA_SANJEEVANI_GCI,hard,hard,hard-route,Qwen3.6-27B,0.0611,0.8578,0.9189,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/5997125 Policy period 01/05/2025 to 30/04/2026
+Name of the
+insured person
+Aakash Iyer Age / Sex 44 / Male
+Relationship to
+the policyholder
+Spouse Claim No. CL202558400278
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Shravasti Superspeciality Hospital
+City Jaipur
+Date and time of admission 10/07/2025 7:00 AM
+Date and time of discharge 15/07/2025 5:30 AM
+Treating doctor Dr Pooja Verma
+Room category Twin sharing
+Nature of illness or injury Acute interstitial oedematous pancreatitis
+Total amount claimed Rs. 65,147
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Aakash Iyer
+Date: 15/07/2025
+Page 1 of 1
+
+## discharge_summary
+Shravasti Superspeciality Hospital
+Jaipur, India
+Department of Medical Records
+Discharge Summary
+Patient Aakash Iyer Age / Sex 44 years / Male
+Admitted 9 July 2025 23:00 hrs Discharged 14 July 2025 21:30 hrs
+Accommodation Twin sharing Treating doctor Dr Pooja Verma
+Regn. No. RMC/2005/75987
+Diagnosis
+Final diagnosis Acute interstitial oedematous pancreatitis
+Presenting Complaints
+Aakash Iyer, a 44-year-old male, came in with severe pain in the upper abdomen radiating to the back, associated with
+vomiting and abdominal distension.
+History
+The complaints had been present for a few days before admission and had been worsening. He had taken some medication on
+his own without relief. There was no significant past history of any long-standing illness.
+On Examination
+On examination, the patient wa"
+case-000751,NEW_INDIA_MEDICLAIM,medium,medium,medium-route,Qwen3.6-27B,0.009,0.8917,0.9008,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/3129957 Policy period 17.04.2025 to 16.04.2026
+Name of the
+insured person
+Divya Khan Age / Sex 47 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202538875391
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Arogyam Medical Centre
+City Coimbatore
+Date and time of admission 06.11.2025 12:00 hrs
+Date and time of discharge 13.11.2025 16:15 hrs
+Treating doctor Dr Rohan Sinha
+Room category General ward
+Nature of illness or injury Coronary artery disease (ICD-10 I25.1)
+Treatment or operation Bypass surgery
+Total amount claimed ₹4,30,415
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Divya Khan
+Date: 13.11.2025
+Page 1 of 1
+
+## discharge_summary
+Arogyam Medical Centre
+Coimbatore, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Divya Khan Age / Sex 47 years / Female
+Admitted 06.11.2025 12:00 hrs Discharged 13.11.2025 16:15 hrs
+Accommodation General ward Length of stay 7 days 4 hours
+Treating doctor Dr Rohan Sinha Regn. No. TNMC/2002/12534
+DIAGNOSIS
+Final diagnosis Coronary artery disease
+Procedure performed Bypass surgery
+PRESENTING COMPLAINTS
+Divya Khan, a 47-year-old female, came in with chest discomfort and breathlessness on exertion that had been troubling her
+for some time.
+HISTORY
+The symptoms had been going on for a few weeks and had become more frequent despite rest and medicines taken at home.
+She gave no significant past history of any other long-standing illness.
+ON EXAMINATION
+On ad"
+case-000537,NEW_INDIA_MEDICLAIM,medium,easy,easy-route,gemma-12b,-0.0181,0.9319,0.9138,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/5770496 Policy period 24.03.2025 to 23.03.2026
+Name of the
+insured person
+Rajesh Desai Age / Sex 56 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202570735861
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Harshal Nursing Home
+City Nashik
+Date and time of admission 07.06.2025 00:15 hrs
+Date and time of discharge 15.06.2025 04:00 hrs
+Treating doctor Dr Sana Gupta
+Room category General ward
+Nature of illness or injury Coronary artery disease (ICD-10 I25.1)
+Treatment or operation Bypass surgery
+Total amount claimed ₹3,49,294
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Rajesh Desai
+Date: 15.06.2025
+Page 1 of 1
+
+## hospital_bill
+Harshal Nursing Home
+Nashik, India
+Billing Department
+INPATIENT BILL
+Bill No. IP/2025/88479 Bill date 15.06.2025
+Patient Rajesh Desai UHID UH2025394192
+Age / Sex 56 years / Male Consultant Dr Sana Gupta
+Admitted 07.06.2025 00:15 hrs Discharged 15.06.2025 04:00 hrs
+Accommodation General ward
+CHARGES DURING HOSPITALISATION
+Sl Particulars Rate Qty Amount
+1 Room rent (General ward) INR 2,300 9 INR 20,700
+2 Nursing charges INR 400 9 INR 3,600
+3 Surgeon's fee INR 1,40,000 1 INR 1,40,000
+4 Anaesthetist's fee INR 29,400 1 INR 29,400
+5 Operation theatre charges INR 84,500 1 INR 84,500
+6 Consultant visits INR 900 9 INR 8,100
+7 Pharmacy and medicines INR 40,448 1 INR 40,448
+8 Laboratory and imaging INR 18,817 1 INR 18,817
+9 Medical consumables (syringes, IV sets) INR 669 1 INR 669
+10 A"
+case-000299,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0238,0.9462,0.9224,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/4721494 Policy period 20/09/2025 to 19/09/2026
+Name of the
+insured person
+Meera Nair Age / Sex 35 / Female
+Relationship to
+the policyholder
+Spouse Claim No. CL202690200934
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Pranjal Multispeciality Hospital
+City Visakhapatnam
+Date and time of admission 20/04/2026 12:45 AM
+Date and time of discharge 21/04/2026 2:45 AM
+Treating doctor Dr Harish Saxena
+Room category Twin sharing
+Nature of illness or injury Broken nose, repaired (ICD-10 S02.2)
+Treatment or operation Nose reconstruction
+If an injury, how it occurred Sustained in a blow to the face during a fall
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Twin sharing) 20/04/2026 Rs. 6,400
+2 Nursing charges 20/04/2026 Rs. 1,200
+3 Surgeon's fee 20/04/2026 Rs. 42,500
+4 Anaesthetist's fee 20/04/2026 Rs. 12,300
+5 Operation theatre charges 20/04/2026 Rs. 16,500
+6 Consultant visits 20/04/2026 Rs. 2,200
+7 Pharmacy and medicines 20/04/2026 Rs. 4,926
+8 Laboratory and imaging 20/04/2026 Rs. 3,300
+9 Medical consumables (syringes, IV sets) 20/04/2026 Rs. 2,605
+10 Attendant food charges 20/04/2026 Rs. 130
+11 Air conditioner charges 20/04/2026 Rs. 310
+Room rent per day Rs. 3,200
+Total amount claimed Rs. 92,371
+Page 1 of 2
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Meera Nair
+Date: 21/04/2026
+Page 2 of 2
+
+## discharge_summary
+Pranjal Multispeciality Hospital
+Visakhapatnam, India
+Department of Medical Recor"
+case-000541,NEW_INDIA_MEDICLAIM,medium,hard,hard-route,Qwen3.6-27B,0.0474,0.8604,0.9077,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/1005733 Policy period 04.06.2025 to 03.06.2026
+Name of the
+insured person
+Nandini Khan Age / Sex 51 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202515356874
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Saanvi Superspeciality Hospital
+City Visakhapatnam
+Date and time of admission 03.12.2025 01:15 hrs
+Date and time of discharge 05.12.2025 05:00 hrs
+Treating doctor Dr Bhavna Menon
+Room category General ward
+Nature of illness or injury Asthma attack (ICD-10 J45.9)
+Total amount claimed ₹25,970
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Nandini Khan
+Date: 05.12.2025
+Page 1 of 1
+
+## discharge_summary
+Saanvi Superspeciality Hospital
+Visakhapatnam, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Nandini Khan Age / Sex 51 years / Female
+Admitted 03/12/2025 1:15 AM Discharged 05/12/2025 5:00 AM
+Accommodation General ward Length of stay 2 days 3 hours
+Treating doctor Dr Bhavna Menon Regn. No. APMC/2022/91491
+DIAGNOSIS
+Final diagnosis Asthma attack
+PRESENTING COMPLAINTS
+Nandini Khan came in with breathlessness and wheeze that had been troubling her for a few days, along with tightness in the
+chest and a cough.
+HISTORY
+The symptoms had been building up over the days before admission and did not settle with the medicines she had been taking
+at home. There was no significant past history otherwise.
+ON EXAMINATION
+On examination she was conscious and oriented, and was comfortable at rest on"
+case-000791,NEW_INDIA_MEDICLAIM,easy,easy,easy-route,gemma-12b,-0.0315,0.9571,0.9256,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/8059714 Policy period 05.02.2025 to 04.02.2026
+Name of the
+insured person
+Farhan Sinha Age / Sex 51 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202547798775
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Amaltas Hospital
+City Guwahati
+Date and time of admission 21.05.2025 12:45 hrs
+Date and time of discharge 24.05.2025 10:45 hrs
+Treating doctor Dr Harish Iyer
+Room category General ward
+Nature of illness or injury Acute gastroenteritis (ICD-10 A09.0)
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 21.05.2025 ₹3,900
+2 Nursing charges 21.05.2025 ₹1,200
+3 Consultant visits 21.05.2025 ₹2,850
+4 Pharmacy and medicines 21.05.2025 ₹4,143
+5 Laboratory and imaging 21.05.2025 ₹5,947
+6 Medical consumables (syringes, IV sets) 21.05.2025 ₹771
+7 Adult diapers 21.05.2025 ₹880
+Room rent per day ₹1,300
+Total amount claimed ₹38,991
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Farhan Sinha
+Date: 24.05.2025
+Page 1 of 1
+
+## discharge_summary
+Amaltas Hospital
+Guwahati, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Farhan Sinha Age / Sex 51 years / Male
+Admitted 21 May 2025 12:45 hrs Discharged 24 May 2025 10:45 hrs
+Accommodation General ward Length of stay 2 days 22 hours
+Treating doctor Dr Harish Iyer Regn. No. AMC/1998/16095
+DIAGNOSIS
+Final diagnosis Acute gastroenteritis
+PRESENTING COMPLAINTS
+Farhan Sinha came in with loose stools and vomiting for a few days, along w"
+case-000368,AROGYA_SANJEEVANI_GCI,hard,medium,medium-route,Qwen3.6-27B,0.0067,0.8975,0.9042,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/1559252 Policy period 06/08/2025 to 05/08/2026
+Name of the
+insured person
+Pranav Khan Age / Sex 17 / Male
+Relationship to
+the policyholder
+Child Claim No. CL202559789510
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Arogyam Multispeciality Hospital
+City Lucknow
+Date and time of admission 30/08/2025 9:45 AM
+Date and time of discharge 05/09/2025 5:45 PM
+Treating doctor Dr Zoya Das
+Room category Single private AC
+Nature of illness or injury Cellulitis of the left lower limb with lymphangitis
+Total amount claimed Rs. 66,641
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Pranav Khan
+Date: 05/09/2025
+Page 1 of 1
+
+## discharge_summary
+Arogyam Multispeciality Hospital
+Lucknow, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Pranav Khan Age / Sex 17 years / Male
+Admitted 30/08/2025 9:45 AM Discharged 05/09/2025 5:45 PM
+Accommodation Single private AC Treating doctor Dr Zoya Das
+Regn. No. UPMC/2007/87549
+DIAGNOSIS
+Final diagnosis Cellulitis of the left lower limb with lymphangitis
+PRESENTING COMPLAINTS
+Pranav Khan, a 17-year-old male, came with pain and swelling of the affected lower limb and red streaks running up the leg,
+with fever. The complaints had been troubling him for a few days before admission.
+HISTORY
+The trouble had been going on for a few days and he had taken medicines at home without relief. There is no significant past
+history of any long-standing illness.
+ON EXAMINATION
+On examinati"
+case-000648,NEW_INDIA_MEDICLAIM,hard,hard,hard-route,Qwen3.6-27B,0.0377,0.8672,0.9049,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/2902110 Policy period 13.08.2025 to 12.08.2026
+Name of the
+insured person
+Yash Gupta Age / Sex 17 / Male
+Relationship to
+the policyholder
+Child Claim No. CL202617837935
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Vasundhara Multispeciality Hospital
+City Nagpur
+Date and time of admission 05.04.2026 08:00 hrs
+Date and time of discharge 08.04.2026 15:45 hrs
+Treating doctor Dr Ishita Mishra
+Room category Twin sharing
+Nature of illness or injury Closed fracture of the shaft of the tibia
+Treatment or operation Open reduction and internal fixation of the tibia
+If an injury, how it occurred Sustained in a fall while crossing the road
+Total amount claimed ₹1,58,685
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Yash Gupta
+Date: 08.04.2026
+Page 1 of 1
+
+## discharge_summary
+Vasundhara Multispeciality Hospital
+Nagpur, India
+Department of Medical Records
+Discharge Summary
+Patient Yash Gupta Age / Sex 17 years / Male
+Admitted 05/04/2026 08:00 hrs Discharged 08/04/2026 15:45 hrs
+Accommodation Twin sharing Treating doctor Dr Ishita Mishra
+Regn. No. MMC/2002/70729
+Diagnosis
+Final diagnosis Closed fracture of the shaft of the tibia
+Procedure performed Open reduction and internal fixation of the tibia
+Nature of injury Sustained in a fall while crossing the road
+Presenting Complaints
+Yash Gupta, a 17-year-old male, came in with pain and swelling of the leg and an inability to bear weight on it, following a fall
+while crossin"
+case-000899,NEW_INDIA_MEDICLAIM,easy,easy,easy-route,gemma-12b,-0.0147,0.9401,0.9254,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/7725644 Policy period 05.05.2025 to 04.05.2026
+Name of the
+insured person
+Yamini Chatterjee Age / Sex 35 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202647093119
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Saanvi Superspeciality Hospital
+City Jaipur
+Date and time of admission 23.03.2026 09:30 hrs
+Date and time of discharge 27.03.2026 14:00 hrs
+Treating doctor Dr Yash Chatterjee
+Room category Twin sharing
+Nature of illness or injury Fibroids in the uterus (ICD-10 D25.9)
+Treatment or operation Removal of the uterus
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Twin sharing) 23.03.2026 ₹21,000
+2 Nursing charges 23.03.2026 ₹5,000
+3 Surgeon's fee 23.03.2026 ₹40,500
+4 Anaesthetist's fee 23.03.2026 ₹9,300
+5 Operation theatre charges 23.03.2026 ₹21,000
+6 Consultant visits 23.03.2026 ₹5,500
+7 Pharmacy and medicines 23.03.2026 ₹6,161
+8 Laboratory and imaging 23.03.2026 ₹4,384
+9 Medical consumables (syringes, IV sets) 23.03.2026 ₹1,015
+10 Admission kit 23.03.2026 ₹880
+Room rent per day ₹4,200
+Total amount claimed ₹1,14,740
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Page 1 of 2
+Signature of the insured person: Yamini Chatterjee
+Date: 27.03.2026
+Page 2 of 2
+
+## discharge_summary
+Saanvi Superspeciality Hospital
+Jaipur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Yamini Chatterjee Age / Sex 35 years / Female
+Admitted 23.03.2026 09:30 hrs Discharged 27.03.2026 14:00 hrs
+Accommodation Twin sharing "
+case-000064,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0498,0.9523,0.9025,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/2581863 Policy period 05/04/2025 to 04/04/2026
+Name of the
+insured person
+Usha Khan Age / Sex 24 / Female
+Relationship to
+the policyholder
+Spouse Claim No. CL202658594897
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Chandrika Medical Centre
+City Chandigarh
+Date and time of admission 25/04/2026 6:15 PM
+Date and time of discharge 28/04/2026 2:30 AM
+Treating doctor Dr Sana Patel
+Room category Single private AC
+Nature of illness or injury Asthma attack (ICD-10 J45.9)
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Single private AC) 25/04/2026 Rs. 13,500
+2 Nursing charges 25/04/2026 Rs. 1,200
+3 Consultant visits 25/04/2026 Rs. 2,700
+4 Pharmacy and medicines 25/04/2026 Rs. 3,365
+5 Laboratory and imaging 25/04/2026 Rs. 5,658
+6 Medical consumables (syringes, IV sets) 25/04/2026 Rs. 2,636
+7 Pulse oximeter charges 25/04/2026 Rs. 930
+8 Documentation charges 25/04/2026 Rs. 450
+9 Discharge procedure charges 25/04/2026 Rs. 1,480
+Room rent per day Rs. 4,500
+Total amount claimed Rs. 31,919
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Usha Khan
+Date: 28/04/2026
+Page 1 of 1
+
+## discharge_summary
+Chandrika Medical Centre
+Chandigarh, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Usha Khan Age / Sex 24 years / Female
+Admitted 25 April 2026 6:15 PM Discharged 28 April 2026 2:30 AM
+Accommodation Single private AC Length of stay 2 days 8 hours
+Treating doctor Dr Sana Patel Regn. No. PMC/200"
+case-000868,NEW_INDIA_MEDICLAIM,hard,medium,medium-route,Qwen3.6-27B,0.0043,0.8963,0.9006,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/3283711 Policy period 24.04.2025 to 23.04.2026
+Name of the
+insured person
+Kavita Nair Age / Sex 30 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202640621398
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Amaltas Multispeciality Hospital
+City Vadodara
+Date and time of admission 02.03.2026 15:45 hrs
+Date and time of discharge 09.03.2026 15:15 hrs
+Treating doctor Dr Arjun Shetty
+Room category Twin sharing
+Nature of illness or injury Enteric fever, blood culture positive for Salmonella Typhi
+Total amount claimed ₹64,938
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Kavita Nair
+Date: 09.03.2026
+Page 1 of 1
+
+## discharge_summary
+Amaltas Multispeciality Hospital
+Vadodara, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Kavita Nair Age / Sex 30 years / Female
+Admitted 2 March 2026 3:45 PM Discharged 9 March 2026 3:15 PM
+Accommodation Twin sharing Treating doctor Dr Arjun Shetty
+Regn. No. GMC/2005/57690
+DIAGNOSIS
+Final diagnosis Enteric fever, blood culture positive for Salmonella Typhi
+PRESENTING COMPLAINTS
+Kavita Nair, a 30-year-old female, was admitted on 2 March 2026 3:45 PM with complaints of high grade fever with
+chills, generalised weakness and loss of appetite since several days.
+HISTORY
+The fever had been ongoing for a few days before admission, with no significant relief from the medicines taken at
+home. There was no significant past history of any long-standing illness.
+ON EXAM"
+case-000603,NEW_INDIA_MEDICLAIM,hard,hard,hard-route,Qwen3.6-27B,0.0293,0.8918,0.9211,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/6326151 Policy period 28.11.2025 to 27.11.2026
+Name of the
+insured person
+Harish Rao Age / Sex 69 / Male
+Relationship to
+the policyholder
+Parent Claim No. CL202612065646
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Amaltas Superspeciality Hospital
+City Guwahati
+Date and time of admission 26.01.2026 09:45 hrs
+Date and time of discharge 28.01.2026 07:00 hrs
+Treating doctor Dr Ananya Fernandes
+Room category Twin sharing
+Nature of illness or injury Third-degree internal haemorrhoids
+Treatment or operation Stapled haemorrhoidopexy
+Total amount claimed ₹71,357
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Harish Rao
+Date: 28.01.2026
+Page 1 of 1
+
+## discharge_summary
+Amaltas Superspeciality Hospital
+Guwahati, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Harish Rao Age / Sex 69 years / Male
+Admitted 26.01.2026 09:45 hrs Discharged 28.01.2026 07:00 hrs
+Accommodation Twin sharing Treating doctor Dr Ananya Fernandes
+Regn. No. AMC/2016/60134
+DIAGNOSIS
+Final diagnosis Third-degree internal haemorrhoids
+Procedure performed Stapled haemorrhoidopexy
+PRESENTING COMPLAINTS
+Harish Rao came in with bleeding per rectum and a mass protruding from the anal opening, along with discomfort while
+passing stool.
+HISTORY
+The trouble had been going on for a long time, with worsening of symptoms over the recent past. He had tried local
+applications and stool softeners before coming in. There was no significant past his"
+case-000585,NEW_INDIA_MEDICLAIM,easy,easy,easy-route,gemma-12b,-0.044,0.9552,0.9112,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/1564416 Policy period 11.11.2025 to 10.11.2026
+Name of the
+insured person
+Tarun Patel Age / Sex 47 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202640557703
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Saanvi Medical Centre
+City Chandigarh
+Date and time of admission 11.03.2026 08:00 hrs
+Date and time of discharge 13.03.2026 10:45 hrs
+Treating doctor Dr Tarun Chatterjee
+Room category Twin sharing
+Nature of illness or injury Piles (ICD-10 K64.9)
+Treatment or operation Piles surgery
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Twin sharing) 11.03.2026 ₹7,950
+2 Nursing charges 11.03.2026 ₹1,800
+3 Surgeon's fee 11.03.2026 ₹19,000
+4 Anaesthetist's fee 11.03.2026 ₹5,100
+5 Operation theatre charges 11.03.2026 ₹10,000
+6 Consultant visits 11.03.2026 ₹1,800
+7 Pharmacy and medicines 11.03.2026 ₹3,956
+8 Laboratory and imaging 11.03.2026 ₹6,978
+9 Medical consumables (syringes, IV sets) 11.03.2026 ₹1,861
+10 Face masks 11.03.2026 ₹300
+11 Television charges 11.03.2026 ₹660
+12 Toiletries 11.03.2026 ₹280
+Room rent per day ₹2,650
+Total amount claimed ₹59,685
+Page 1 of 2
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Tarun Patel
+Date: 13.03.2026
+Page 2 of 2
+
+## discharge_summary
+Saanvi Medical Centre
+Chandigarh, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Tarun Patel Age / Sex 47 years / Male
+Admitted 11/03/2026 8:00 AM Discharged 13/03/2026 10:45 AM
+Accommodation Twin sharing"
+case-000736,NEW_INDIA_MEDICLAIM,hard,medium,medium-route,Qwen3.6-27B,0.0117,0.8911,0.9028,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/2537520 Policy period 14.08.2025 to 13.08.2026
+Name of the
+insured person
+Kavita Pandey Age / Sex 50 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202649918198
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Pranjal Multispeciality Hospital
+City Bhubaneswar
+Date and time of admission 07.03.2026 06:45 hrs
+Date and time of discharge 09.03.2026 12:15 hrs
+Treating doctor Dr Pranav Pandey
+Room category General ward
+Nature of illness or injury Comminuted fracture of the nasal bones, post-traumatic deformity
+Treatment or operation Post-traumatic reconstructive septorhinoplasty
+If an injury, how it occurred Sustained in a fall from a two-wheeler
+Total amount claimed ₹1,06,608
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Kavita Pandey
+Date: 09.03.2026
+Page 1 of 1
+
+## discharge_summary
+Pranjal Multispeciality Hospital
+Bhubaneswar, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Kavita Pandey Age / Sex 50 years / Female
+Admitted 7 March 2026 6:45 AM Discharged 9 March 2026 12:15 PM
+Accommodation General ward Treating doctor Dr Pranav Pandey
+Regn. No. OCMR/2006/96939
+DIAGNOSIS
+Final diagnosis Comminuted fracture of the nasal bones, post-traumatic deformity
+Procedure performed Post-traumatic reconstructive septorhinoplasty
+Nature of injury Sustained in a fall from a two-wheeler
+PRESENTING COMPLAINTS
+Kavita Pandey came in with pain, swelling and deformity of the nose following a fall from a two"
+case-000402,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0242,0.9403,0.9161,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/1609587 Policy period 28/09/2025 to 27/09/2026
+Name of the
+insured person
+Ananya Desai Age / Sex 60 / Female
+Relationship to
+the policyholder
+Spouse Claim No. CL202692439366
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Devika Medical Centre
+City Bhopal
+Date and time of admission 24/08/2026 6:30 AM
+Date and time of discharge 25/08/2026 12:45 AM
+Treating doctor Dr Meera Saxena
+Room category Not applicable
+Nature of illness or injury Cataract (ICD-10 H25.1)
+Treatment or operation Cataract surgery
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Surgeon's fee 24/08/2026 Rs. 39,000
+2 Anaesthetist's fee 24/08/2026 Rs. 11,300
+3 Operation theatre charges 24/08/2026 Rs. 18,000
+4 Intraocular lens 24/08/2026 Rs. 38,000
+5 Consultant visits 24/08/2026 Rs. 800
+6 Pharmacy and medicines 24/08/2026 Rs. 954
+7 Laboratory and imaging 24/08/2026 Rs. 2,454
+8 Medical consumables (syringes, IV sets) 24/08/2026 Rs. 2,813
+9 Toiletries 24/08/2026 Rs. 830
+10 Shoe covers 24/08/2026 Rs. 1,490
+11 Face masks 24/08/2026 Rs. 380
+Total amount claimed Rs. 1,16,021
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Page 1 of 2
+Signature of the insured person: Ananya Desai
+Date: 25/08/2026
+Page 2 of 2
+
+## discharge_summary
+Devika Medical Centre
+Bhopal, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Ananya Desai Age / Sex 60 years / Female
+Admitted 24 August 2026 06:30 hrs Discharged 25 August 2026 00:45 hrs
+Length of stay 18 hours 15 minutes Treating docto"
+case-000567,NEW_INDIA_MEDICLAIM,hard,hard,hard-route,Qwen3.6-27B,0.0381,0.9039,0.942,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/6291357 Policy period 06.02.2025 to 05.02.2026
+Name of the
+insured person
+Gaurav Iyer Age / Sex 23 / Male
+Relationship to
+the policyholder
+Spouse Claim No. CL202532987717
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Pranjal Nursing Home
+City Bhopal
+Date and time of admission 09.07.2025 15:15 hrs
+Date and time of discharge 11.07.2025 22:00 hrs
+Treating doctor Dr Manoj Agarwal
+Room category Deluxe room
+Nature of illness or injury Unilateral inguinal hernia without obstruction or gangrene
+Treatment or operation Lichtenstein tension-free mesh hernioplasty
+Total amount claimed ₹1,28,526
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Gaurav Iyer
+Date: 11.07.2025
+Page 1 of 1
+
+## discharge_summary
+Pranjal Nursing Home
+Bhopal, India
+Department of Medical Records
+Discharge Summary
+Patient Gaurav Iyer Age / Sex 23 years / Male
+Admitted 9 July 2025 15:15 hrs Discharged 11 July 2025 22:00 hrs
+Accommodation Deluxe room Treating doctor Dr Manoj Agarwal
+Regn. No. MPMC/2015/97278
+Diagnosis
+Final diagnosis Unilateral inguinal hernia without obstruction or gangrene
+Procedure performed Lichtenstein tension-free mesh hernioplasty
+Presenting Complaints
+Gaurav Iyer came in with a swelling in the groin that had been present for some time, noticed while straining or
+lifting, and which had become more noticeable and uncomfortable over the recent period.
+History
+The trouble had been going on for a few months, gradually increasing in"
+case-000320,AROGYA_SANJEEVANI_GCI,medium,easy,easy-route,gemma-12b,-0.0109,0.8858,0.8749,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/7344680 Policy period 14/11/2025 to 13/11/2026
+Name of the
+insured person
+Farah Fernandes Age / Sex 76 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202657732917
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Harshal Nursing Home
+City Coimbatore
+Date and time of admission 26/04/2026 6:45 AM
+Date and time of discharge 04/05/2026 12:15 PM
+Treating doctor Dr Gaurav Kulkarni
+Room category General ward
+Nature of illness or injury Heart failure due to high blood pressure (ICD-10 I11.0)
+Total amount claimed Rs. 90,989
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Farah Fernandes
+Date: 04/05/2026
+Page 1 of 1
+
+## discharge_summary
+Harshal Nursing Home
+Coimbatore, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Farah Fernandes Age / Sex 76 years / Female
+Admitted 26 April 2026 06:45 hrs Discharged 4 May 2026 12:15 hrs
+Accommodation General ward Length of stay 8 days 5 hours
+Treating doctor Dr Gaurav Kulkarni Regn. No. TNMC/1995/10534
+DIAGNOSIS
+Final diagnosis Heart failure due to high blood pressure
+PRESENTING COMPLAINTS
+Farah Fernandes came in with breathlessness on exertion and swelling of the feet, which had been increasing over the recent
+past.
+HISTORY
+The complaints had been present for some time and had worsened gradually. She had been taking medicines for high blood
+pressure for a long period. No other significant past history was reported.
+ON EXAMINATION
+On admission she was cons"
+case-000117,AROGYA_SANJEEVANI_GCI,medium,hard,hard-route,Qwen3.6-27B,0.0541,0.8365,0.8906,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/5250365 Policy period 06/10/2025 to 05/10/2026
+Name of the
+insured person
+Usha Kulkarni Age / Sex 9 / Female
+Relationship to
+the policyholder
+Child Claim No. CL202590953454
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Pranjal Hospital
+City Surat
+Date and time of admission 06/11/2025 9:45 AM
+Date and time of discharge 07/11/2025 1:45 PM
+Treating doctor Dr Priya Shetty
+Room category Deluxe room
+Nature of illness or injury Broken wrist (ICD-10 S52.5)
+Treatment or operation Wrist fracture fixation
+If an injury, how it occurred Sustained in a fall from a two-wheeler
+Total amount claimed Rs. 60,342
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Usha Kulkarni
+Date: 07/11/2025
+Page 1 of 1
+
+## discharge_summary
+Pranjal Hospital
+Surat, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Usha Kulkarni Age / Sex 9 years / Female
+Admitted 6 November 2025 09:45 hrs Discharged 7 November 2025 13:45 hrs
+Accommodation Deluxe room Length of stay 1 day 4 hours
+Treating doctor Dr Priya Shetty Regn. No. GMC/2008/57311
+DIAGNOSIS
+Final diagnosis Broken wrist
+Procedure performed Wrist fracture fixation
+Nature of injury Sustained in a fall from a two-wheeler
+PRESENTING COMPLAINTS
+Usha Kulkarni, a 9-year-old female, was brought with pain and swelling of the wrist following a fall from a two-wheeler.
+HISTORY
+The trouble had been going on since the time of the fall, a few hours before coming in. No first aid or medicine "
+case-000702,NEW_INDIA_MEDICLAIM,easy,easy,easy-route,gemma-12b,-0.0191,0.9326,0.9135,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/7063794 Policy period 05.11.2025 to 04.11.2026
+Name of the
+insured person
+Rekha Fernandes Age / Sex 59 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202654433741
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Tejaswini Medical Centre
+City Coimbatore
+Date and time of admission 23.10.2026 09:15 hrs
+Date and time of discharge 23.10.2026 17:15 hrs
+Treating doctor Dr Deepak Desai
+Room category Not applicable
+Nature of illness or injury Cataract (ICD-10 H25.1)
+Treatment or operation Cataract surgery
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Surgeon's fee 23.10.2026 ₹44,000
+2 Anaesthetist's fee 23.10.2026 ₹12,700
+3 Operation theatre charges 23.10.2026 ₹19,000
+4 Intraocular lens 23.10.2026 ₹34,000
+5 Consultant visits 23.10.2026 ₹750
+6 Pharmacy and medicines 23.10.2026 ₹1,617
+7 Laboratory and imaging 23.10.2026 ₹2,819
+8 Medical consumables (syringes, IV sets) 23.10.2026 ₹873
+9 Crepe bandage 23.10.2026 ₹1,260
+Total amount claimed ₹1,17,019
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Rekha Fernandes
+Date: 23.10.2026
+Page 1 of 1
+
+## discharge_summary
+Tejaswini Medical Centre
+Coimbatore, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Rekha Fernandes Age / Sex 59 years / Female
+Admitted 23/10/2026 9:15 AM Discharged 23/10/2026 5:15 PM
+Length of stay 8 hours Treating doctor Dr Deepak Desai
+Regn. No. TNMC/2005/39136
+DIAGNOSIS
+Final diagnosis Cataract
+Procedure performed Cataract s"
+case-000872,NEW_INDIA_MEDICLAIM,medium,medium,medium-route,Qwen3.6-27B,0.0131,0.8761,0.8891,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/7091119 Policy period 13.01.2025 to 12.01.2026
+Name of the
+insured person
+Kavita Reddy Age / Sex 29 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202514242639
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Saanvi Multispeciality Hospital
+City Mysuru
+Date and time of admission 02.02.2025 23:30 hrs
+Date and time of discharge 08.02.2025 07:15 hrs
+Treating doctor Dr Pranav Agarwal
+Room category Twin sharing
+Nature of illness or injury Typhoid fever (ICD-10 A01.0)
+Total amount claimed ₹50,948
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Kavita Reddy
+Date: 08.02.2025
+Page 1 of 1
+
+## discharge_summary
+Saanvi Multispeciality Hospital
+Mysuru, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Kavita Reddy Age / Sex 29 years / Female
+Admitted 02.02.2025 23:30 hrs Discharged 08.02.2025 07:15 hrs
+Accommodation Twin sharing Length of stay 5 days 7 hours
+Treating doctor Dr Pranav Agarwal Regn. No. KMC/2017/77307
+DIAGNOSIS
+Final diagnosis Typhoid fever
+PRESENTING COMPLAINTS
+Kavita Reddy came in with high grade fever and loose motions for a few days, with weakness and reduced appetite.
+HISTORY
+The fever had been going on for several days before admission and did not settle with medicines taken at home. There is no
+significant past history.
+ON EXAMINATION
+On examination the patient was conscious and oriented, though looking unwell and dehydrated. The abdomen was soft and
+mildly tender, and bowel sou"
+case-000280,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0376,0.9548,0.9172,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/8540870 Policy period 16/06/2025 to 15/06/2026
+Name of the
+insured person
+Ananya Verma Age / Sex 32 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202565699845
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Tejaswini Nursing Home
+City Kochi
+Date and time of admission 14/10/2025 4:30 PM
+Date and time of discharge 16/10/2025 2:30 PM
+Treating doctor Dr Sanjay Chatterjee
+Room category General ward
+Nature of illness or injury Infertility treatment (ICD-10 N97.9)
+Treatment or operation IVF
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 14/10/2025 Rs. 2,800
+2 Nursing charges 14/10/2025 Rs. 1,100
+3 Surgeon's fee 14/10/2025 Rs. 96,500
+4 Anaesthetist's fee 14/10/2025 Rs. 27,000
+5 Operation theatre charges 14/10/2025 Rs. 17,500
+6 Consultant visits 14/10/2025 Rs. 1,200
+7 Pharmacy and medicines 14/10/2025 Rs. 4,812
+8 Laboratory and imaging 14/10/2025 Rs. 4,345
+9 Medical consumables (syringes, IV sets) 14/10/2025 Rs. 2,625
+10 Shoe covers 14/10/2025 Rs. 1,350
+Room rent per day Rs. 1,400
+Total amount claimed Rs. 1,59,232
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Page 1 of 2
+Signature of the insured person: Ananya Verma
+Date: 16/10/2025
+Page 2 of 2
+
+## discharge_summary
+Tejaswini Nursing Home
+Kochi, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Ananya Verma Age / Sex 32 years / Female
+Admitted 14-Oct-2025 4:30 PM Discharged 16-Oct-2025 2:30 PM
+Accommodation General ward Length of stay 1 da"
+case-000942,NEW_INDIA_MEDICLAIM,easy,easy,easy-route,gemma-12b,-0.0277,0.9505,0.9228,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/6689956 Policy period 04.06.2025 to 03.06.2026
+Name of the
+insured person
+Farhan Bhat Age / Sex 63 / Male
+Relationship to
+the policyholder
+Parent Claim No. CL202520393951
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Pranjal Medical Centre
+City Surat
+Date and time of admission 18.11.2025 15:45 hrs
+Date and time of discharge 21.11.2025 13:30 hrs
+Treating doctor Dr Vikram Verma
+Room category General ward
+Nature of illness or injury Inguinal hernia (ICD-10 K40.9)
+Treatment or operation Hernia repair
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 18.11.2025 ₹4,500
+2 Nursing charges 18.11.2025 ₹1,500
+3 Surgeon's fee 18.11.2025 ₹29,500
+4 Anaesthetist's fee 18.11.2025 ₹6,400
+5 Operation theatre charges 18.11.2025 ₹14,000
+6 Mesh 18.11.2025 ₹9,000
+7 Consultant visits 18.11.2025 ₹3,300
+8 Pharmacy and medicines 18.11.2025 ₹2,412
+9 Laboratory and imaging 18.11.2025 ₹2,525
+10 Medical consumables (syringes, IV sets) 18.11.2025 ₹2,950
+11 Housekeeping charges 18.11.2025 ₹890
+12 Telephone charges 18.11.2025 ₹530
+13 Multivitamin tablets (over the counter, not prescribed) 18.11.2025 ₹1,050
+Room rent per day ₹1,500
+Total amount claimed ₹78,557
+Page 1 of 2
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Farhan Bhat
+Date: 21.11.2025
+Page 2 of 2
+
+## discharge_summary
+Pranjal Medical Centre
+Surat, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Farhan Bhat Age / Sex 63 years / Male
+Adm"
+case-000303,AROGYA_SANJEEVANI_GCI,hard,medium,medium-route,Qwen3.6-27B,0.0231,0.8916,0.9147,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/7733862 Policy period 19/09/2025 to 18/09/2026
+Name of the
+insured person
+Amit Joshi Age / Sex 41 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202552109782
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Chandrika Multispeciality Hospital
+City Kanpur
+Date and time of admission 21/10/2025 10:15 AM
+Date and time of discharge 22/10/2025 12:30 PM
+Treating doctor Dr Manoj Verma
+Room category General ward
+Nature of illness or injury Comminuted fracture of the nasal bones, post-traumatic deformity
+Treatment or operation Post-traumatic reconstructive septorhinoplasty
+If an injury, how it occurred Sustained in a fall from a two-wheeler
+Total amount claimed Rs. 1,00,237
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Amit Joshi
+Date: 22/10/2025
+Page 1 of 1
+
+## discharge_summary
+Chandrika Multispeciality Hospital
+Kanpur, India
+Department of Medical Records
+Discharge Summary
+Patient Amit Joshi Age / Sex 41 years / Male
+Admitted 21 October 2025 10:15 AM Discharged 22 October 2025 12:30 PM
+Accommodation General ward Treating doctor Dr Manoj Verma
+Regn. No. UPMC/2001/49880
+Diagnosis
+Final diagnosis Comminuted fracture of the nasal bones, post-traumatic deformity
+Procedure performed Post-traumatic reconstructive septorhinoplasty
+Nature of injury Sustained in a fall from a two-wheeler
+Presenting Complaints
+Amit Joshi came in with pain, swelling and deformity of the nose following a fall from a two-wheeler.
+Histo"
+case-000100,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0438,0.9614,0.9176,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/5193786 Policy period 20/09/2025 to 19/09/2026
+Name of the
+insured person
+Gauri Chatterjee Age / Sex 85 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202534149228
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Chandrika Hospital
+City Coimbatore
+Date and time of admission 05/11/2025 7:00 PM
+Date and time of discharge 08/11/2025 10:00 PM
+Treating doctor Dr Arjun Rao
+Room category Single private AC
+Nature of illness or injury Cellulitis of the leg (ICD-10 L03.1)
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Single private AC) 05/11/2025 Rs. 31,600
+2 Nursing charges 05/11/2025 Rs. 1,600
+3 Consultant visits 05/11/2025 Rs. 2,400
+4 Pharmacy and medicines 05/11/2025 Rs. 8,067
+5 Laboratory and imaging 05/11/2025 Rs. 5,354
+6 Medical consumables (syringes, IV sets) 05/11/2025 Rs. 2,435
+7 Pulse oximeter charges 05/11/2025 Rs. 230
+8 Documentation charges 05/11/2025 Rs. 1,440
+9 Urine bag 05/11/2025 Rs. 210
+Room rent per day Rs. 7,900
+Total amount claimed Rs. 53,336
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Gauri Chatterjee
+Date: 08/11/2025
+Page 1 of 1
+
+## discharge_summary
+Chandrika Hospital
+Coimbatore, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Gauri Chatterjee Age / Sex 85 years / Female
+Admitted 5 November 2025 19:00 hrs Discharged 8 November 2025 22:00 hrs
+Accommodation Single private AC Length of stay 3 days 3 hours
+Treating doctor Dr Arjun Rao Regn. No. TNM"
+case-000375,AROGYA_SANJEEVANI_GCI,medium,hard,hard-route,Qwen3.6-27B,0.0844,0.8202,0.9046,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/3007006 Policy period 20/05/2025 to 19/05/2026
+Name of the
+insured person
+Vikram Kapoor Age / Sex 27 / Male
+Relationship to
+the policyholder
+Spouse Claim No. CL202635169744
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Devika Superspeciality Hospital
+City Indore
+Date and time of admission 23/02/2026 6:30 PM
+Date and time of discharge 02/03/2026 7:00 PM
+Treating doctor Dr Pooja Das
+Room category Single private AC
+Nature of illness or injury Acute pancreatitis (ICD-10 K85.9)
+Total amount claimed Rs. 1,07,908
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Vikram Kapoor
+Date: 02/03/2026
+Page 1 of 1
+
+## discharge_summary
+Devika Superspeciality Hospital
+Indore, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Vikram Kapoor Age / Sex 27 years / Male
+Admitted 23 February 2026 6:30 PM Discharged 2 March 2026 7:00 PM
+Accommodation Single private AC Intensive care 1 day
+Length of stay 7 days Treating doctor Dr Pooja Das
+Regn. No. MPMC/2017/18540
+DIAGNOSIS
+Final diagnosis Acute pancreatitis
+PRESENTING COMPLAINTS
+Vikram Kapoor came in with severe pain in the upper abdomen radiating to the back, along with vomiting and inability to take
+food.
+HISTORY
+The trouble had been going on for a few days before coming in. He had taken some medicines on his own at home without
+relief. There is no significant past history.
+ON EXAMINATION
+On examination, the patient was conscious and oriented, in moderate distress due"
+case-000289,AROGYA_SANJEEVANI_GCI,medium,medium,medium-route,Qwen3.6-27B,0.027,0.8495,0.8765,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/6933186 Policy period 04/06/2025 to 03/06/2026
+Name of the
+insured person
+Harish Sinha Age / Sex 17 / Male
+Relationship to
+the policyholder
+Child Claim No. CL202597679449
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Harshal Nursing Home
+City Visakhapatnam
+Date and time of admission 28/12/2025 6:00 AM
+Date and time of discharge 31/12/2025 1:45 PM
+Treating doctor Dr Zoya Rao
+Room category General ward
+Nature of illness or injury Appendicitis (ICD-10 K35.8)
+Treatment or operation Appendix removal
+Total amount claimed Rs. 76,900
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Harish Sinha
+Date: 31/12/2025
+Page 1 of 1
+
+## discharge_summary
+Harshal Nursing Home
+Visakhapatnam, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Harish Sinha Age / Sex 17 years / Male
+Admitted 28/12/2025 06:00 hrs Discharged 31/12/2025 13:45 hrs
+Accommodation General ward Length of stay 3 days 7 hours
+Treating doctor Dr Zoya Rao Regn. No. APMC/1998/75855
+DIAGNOSIS
+Final diagnosis Appendicitis
+Procedure performed Appendix removal
+PRESENTING COMPLAINTS
+Harish Sinha came in with pain in the abdomen and vomiting that had been troubling him for a short while before
+admission.
+HISTORY
+The trouble had been going on for a few days and did not settle with medicines taken at home. There is no
+significant past history.
+ON EXAMINATION
+On examination the patient was conscious and in discomfort. The abdomen was tender, more so in the"
+case-000389,AROGYA_SANJEEVANI_GCI,medium,medium,medium-route,Qwen3.6-27B,0.0059,0.901,0.9069,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/5919086 Policy period 22/11/2025 to 21/11/2026
+Name of the
+insured person
+Jyoti Patel Age / Sex 53 / Female
+Relationship to
+the policyholder
+Spouse Claim No. CL202617186743
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Harshal Nursing Home
+City Bhubaneswar
+Date and time of admission 16/07/2026 9:15 AM
+Date and time of discharge 26/07/2026 6:30 AM
+Treating doctor Dr Karan Sinha
+Room category Twin sharing
+Nature of illness or injury Coronary artery disease (ICD-10 I25.1)
+Treatment or operation Bypass surgery
+Total amount claimed Rs. 5,43,830
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Jyoti Patel
+Date: 26/07/2026
+Page 1 of 1
+
+## discharge_summary
+Harshal Nursing Home
+Bhubaneswar, India
+Department of Medical Records
+Discharge Summary
+Patient Jyoti Patel Age / Sex 53 years / Female
+Admitted 16/07/2026 09:15 hrs Discharged 26/07/2026 06:30 hrs
+Accommodation Twin sharing Length of stay 9 days 21 hours
+Treating doctor Dr Karan Sinha Regn. No. OCMR/2006/10014
+Diagnosis
+Final diagnosis Coronary artery disease
+Procedure performed Bypass surgery
+Presenting Complaints
+Jyoti Patel, a 53-year-old female, came with complaints of chest discomfort and breathlessness on exertion for some time.
+History
+The symptoms had been troubling her for a while, and she had been taking treatment for the same before coming in. She is a
+known case of Coronary artery disease.
+On Examination
+On examination, the patient was conscious an"
+case-000222,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.022,0.9506,0.9286,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/3438600 Policy period 26/01/2025 to 25/01/2026
+Name of the
+insured person
+Lakshmi Sinha Age / Sex 60 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202529284091
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Shravasti Nursing Home
+City Guwahati
+Date and time of admission 20/06/2025 4:15 AM
+Date and time of discharge 24/06/2025 6:00 AM
+Treating doctor Dr Vandana Joshi
+Room category Single private AC
+Nature of illness or injury Knee arthritis (ICD-10 M17.1)
+Treatment or operation Knee replacement
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Single private AC) 20/06/2025 Rs. 23,250
+2 Nursing charges 20/06/2025 Rs. 4,000
+3 Surgeon's fee 20/06/2025 Rs. 1,17,500
+4 Anaesthetist's fee 20/06/2025 Rs. 23,500
+5 Operation theatre charges 20/06/2025 Rs. 33,500
+6 Knee prosthesis 20/06/2025 Rs. 86,000
+7 Consultant visits 20/06/2025 Rs. 5,250
+8 Pharmacy and medicines 20/06/2025 Rs. 12,423
+9 Laboratory and imaging 20/06/2025 Rs. 2,721
+10 Medical consumables (syringes, IV sets) 20/06/2025 Rs. 858
+11 Digital thermometer 20/06/2025 Rs. 1,030
+Room rent per day Rs. 4,650
+Total amount claimed Rs. 3,10,032
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Page 1 of 2
+Signature of the insured person: Lakshmi Sinha
+Date: 24/06/2025
+Page 2 of 2
+
+## discharge_summary
+Shravasti Nursing Home
+Guwahati, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Lakshmi Sinha Age / Sex 60 years / Female
+Admitted 20/06/2025 4:15 AM Discha"
+case-000713,NEW_INDIA_MEDICLAIM,medium,hard,hard-route,Qwen3.6-27B,0.0687,0.798,0.8667,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/2730493 Policy period 15.01.2025 to 14.01.2026
+Name of the
+insured person
+Farah Sinha Age / Sex 64 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202592403184
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Saanvi Medical Centre
+City Bhopal
+Date and time of admission 22.04.2025 04:00 hrs
+Date and time of discharge 22.04.2025 21:00 hrs
+Treating doctor Dr Nikhil Saxena
+Room category Not applicable
+Nature of illness or injury Broken wrist (ICD-10 S52.5)
+Treatment or operation Wrist fracture fixation
+If an injury, how it occurred Sustained in a fall from a two-wheeler
+Total amount claimed ₹45,563
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Farah Sinha
+Date: 22.04.2025
+Page 1 of 1
+
+## discharge_summary
+Saanvi Medical Centre
+Bhopal, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Farah Sinha Age / Sex 64 years / Female
+Admitted 22 April 2025 4:00 AM Discharged 22 April 2025 9:00 PM
+Length of stay 17 hours Treating doctor Dr Nikhil Saxena
+Regn. No. MPMC/2007/94015
+DIAGNOSIS
+Final diagnosis Broken wrist
+Procedure performed Wrist fracture fixation
+Nature of injury Sustained in a fall from a two-wheeler
+PRESENTING COMPLAINTS
+Farah Sinha came in with pain and swelling of the wrist following a fall from a two-wheeler, with difficulty in moving the
+affected hand.
+HISTORY
+The trouble had been going on since the time of the fall, a few hours before coming in. No first aid or medicine was tried a"
+case-000050,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0424,0.9587,0.9163,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/9562542 Policy period 25/03/2025 to 24/03/2026
+Name of the
+insured person
+Farah Sinha Age / Sex 41 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202649464164
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Nirmiti Multispeciality Hospital
+City Mysuru
+Date and time of admission 24/01/2026 11:15 PM
+Date and time of discharge 28/01/2026 7:15 AM
+Treating doctor Dr Usha Kulkarni
+Room category General ward
+Nature of illness or injury Pneumonia (ICD-10 J18.9)
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 24/01/2026 Rs. 3,000
+2 ICU charges (incl. nursing and monitoring) 24/01/2026 Rs. 35,000
+3 Nursing charges 24/01/2026 Rs. 1,200
+4 Consultant visits 24/01/2026 Rs. 3,400
+5 Pharmacy and medicines 24/01/2026 Rs. 6,299
+6 Laboratory and imaging 24/01/2026 Rs. 7,459
+7 Medical consumables (syringes, IV sets) 24/01/2026 Rs. 2,792
+8 Urine bag 24/01/2026 Rs. 480
+Room rent per day Rs. 1,500
+Intensive care per day Rs. 17,500
+Total amount claimed Rs. 59,630
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Farah Sinha
+Date: 28/01/2026
+Page 1 of 1
+
+## discharge_summary
+Nirmiti Multispeciality Hospital
+Mysuru, India
+Department of Medical Records
+Discharge Summary
+Patient Farah Sinha Age / Sex 41 years / Female
+Admitted 24 January 2026 23:15 hrs Discharged 28 January 2026 07:15 hrs
+Accommodation General ward Intensive care 2 days
+Length of stay 3 days 8 hours Treating doctor Dr Usha Kul"
+case-000643,NEW_INDIA_MEDICLAIM,hard,medium,medium-route,Qwen3.6-27B,0.0104,0.8879,0.8984,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/2724071 Policy period 27.02.2025 to 26.02.2026
+Name of the
+insured person
+Lakshmi Bhat Age / Sex 33 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202568217857
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Harshal Hospital
+City Madurai
+Date and time of admission 31.05.2025 17:45 hrs
+Date and time of discharge 04.06.2025 02:15 hrs
+Treating doctor Dr Deepak Joshi
+Room category Twin sharing
+Nature of illness or injury Symptomatic cholelithiasis without cholecystitis
+Treatment or operation Laparoscopic cholecystectomy
+Total amount claimed ₹1,06,180
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Lakshmi Bhat
+Date: 04.06.2025
+Page 1 of 1
+
+## discharge_summary
+Harshal Hospital
+Madurai, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Lakshmi Bhat Age / Sex 33 years / Female
+Admitted 1 June 2025 12:45 AM Discharged 4 June 2025 9:15 AM
+Accommodation Twin sharing Treating doctor Dr Deepak Joshi
+Regn. No. TNMC/2003/67991
+DIAGNOSIS
+Final diagnosis Symptomatic cholelithiasis without cholecystitis
+Procedure performed Laparoscopic cholecystectomy
+PRESENTING COMPLAINTS
+Lakshmi Bhat came in with pain in the upper abdomen that had been coming and going, along with nausea and a feeling of
+fullness after meals.
+HISTORY
+The trouble had been going on for some time, with discomfort after fatty food, and she had taken medicines for acidity at
+home without lasting relief. There was no significant past histo"
+case-000597,NEW_INDIA_MEDICLAIM,medium,hard,hard-route,Qwen3.6-27B,0.0896,0.8401,0.9297,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/9744849 Policy period 29.04.2025 to 28.04.2026
+Name of the
+insured person
+Priya Nair Age / Sex 43 / Female
+Relationship to
+the policyholder
+Spouse Claim No. CL202547379932
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Nirmiti Superspeciality Hospital
+City Jaipur
+Date and time of admission 13.05.2025 14:15 hrs
+Date and time of discharge 16.05.2025 18:30 hrs
+Treating doctor Dr Pooja Pillai
+Room category General ward
+Nature of illness or injury Broken shin bone (ICD-10 S82.2)
+Treatment or operation Fracture fixation
+If an injury, how it occurred Sustained in a fall from a two-wheeler
+Total amount claimed ₹1,50,488
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Priya Nair
+Date: 16.05.2025
+Page 1 of 1
+
+## discharge_summary
+Nirmiti Superspeciality Hospital
+Jaipur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Priya Nair Age / Sex 43 years / Female
+Admitted 13/05/2025 2:15 PM Discharged 16/05/2025 6:30 PM
+Accommodation General ward Length of stay 3 days 4 hours
+Treating doctor Dr Pooja Pillai Regn. No. RMC/2008/52075
+DIAGNOSIS
+Final diagnosis Broken shin bone
+Procedure performed Fracture fixation
+Nature of injury Sustained in a fall from a two-wheeler
+PRESENTING COMPLAINTS
+Priya Nair came in with pain and swelling of the affected leg following a fall from a two-wheeler, and was unable to
+bear weight on the limb.
+HISTORY
+The trouble had been going on since the time of the fall, a few hours before co"
+case-000159,AROGYA_SANJEEVANI_GCI,hard,hard,hard-route,Qwen3.6-27B,0.0506,0.8784,0.929,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/7157301 Policy period 26/02/2025 to 25/02/2026
+Name of the
+insured person
+Sunita Desai Age / Sex 50 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202548843400
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Kalpataru Hospital
+City Chandigarh
+Date and time of admission 08/12/2025 3:15 PM
+Date and time of discharge 11/12/2025 1:00 PM
+Treating doctor Dr Aakash Sharma
+Room category Deluxe room
+Nature of illness or injury Leiomyoma of uterus with menorrhagia
+Treatment or operation Total laparoscopic hysterectomy
+Total amount claimed Rs. 1,14,521
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Sunita Desai
+Date: 11/12/2025
+Page 1 of 1
+
+## discharge_summary
+Kalpataru Hospital
+Chandigarh, India
+Department of Medical Records
+Discharge Summary
+Patient Sunita Desai Age / Sex 50 years / Female
+Admitted 08/12/2025 15:15 hrs Discharged 11/12/2025 13:00 hrs
+Accommodation Deluxe room Treating doctor Dr Aakash Sharma
+Regn. No. PMC/1996/96479
+Diagnosis
+Final diagnosis Leiomyoma of uterus with menorrhagia
+Procedure performed Total laparoscopic hysterectomy
+Presenting Complaints
+Sunita Desai came in with heavy and prolonged menstrual bleeding, which had been troubling her for a long time, along with
+a feeling of heaviness in the lower abdomen.
+History
+The bleeding had been going on for several months and had not settled with medicines taken earlier. There was no significant
+past history otherwise.
+On Examination
+O"
+case-000048,AROGYA_SANJEEVANI_GCI,hard,medium,medium-route,Qwen3.6-27B,0.0101,0.8876,0.8977,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/3696823 Policy period 12/02/2025 to 11/02/2026
+Name of the
+insured person
+Divya Sharma Age / Sex 7 / Female
+Relationship to
+the policyholder
+Child Claim No. CL202549815659
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Arogyam Nursing Home
+City Vadodara
+Date and time of admission 22/04/2025 7:30 PM
+Date and time of discharge 26/04/2025 2:30 AM
+Treating doctor Dr Yash Khan
+Room category Single private AC
+Nature of illness or injury Dengue fever with warning signs
+Total amount claimed Rs. 45,549
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Divya Sharma
+Date: 26/04/2025
+Page 1 of 1
+
+## discharge_summary
+Arogyam Nursing Home
+Vadodara, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Divya Sharma Age / Sex 7 years / Female
+Admitted 22 April 2025 7:30 PM Discharged 26 April 2025 2:30 AM
+Accommodation Single private AC Treating doctor Dr Yash Khan
+Regn. No. GMC/2016/20789
+DIAGNOSIS
+Final diagnosis Dengue fever with warning signs
+PRESENTING COMPLAINTS
+Divya Sharma came in with fever and body ache of a few days, along with nausea and a rash over the limbs.
+HISTORY
+The fever had been going on for a few days before admission and had not settled with medicines taken at home.
+There is no significant past history.
+ON EXAMINATION
+Divya Sharma was conscious and oriented, though looking unwell. Examination showed a febrile child with a faint
+rash over the arms and legs and mild abdominal tenderness. The thr"
+case-000015,AROGYA_SANJEEVANI_GCI,medium,hard,hard-route,Qwen3.6-27B,0.0742,0.8466,0.9208,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/8056340 Policy period 09/08/2025 to 08/08/2026
+Name of the
+insured person
+Yash Bhat Age / Sex 12 / Male
+Relationship to
+the policyholder
+Child Claim No. CL202651161574
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Devika Medical Centre
+City Indore
+Date and time of admission 09/03/2026 9:45 PM
+Date and time of discharge 14/03/2026 12:45 AM
+Treating doctor Dr Nandini Pillai
+Room category Single private AC
+Nature of illness or injury Broken shin bone (ICD-10 S82.2)
+Treatment or operation Fracture fixation
+If an injury, how it occurred Sustained in a fall while crossing the road
+Total amount claimed Rs. 1,55,256
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Yash Bhat
+Date: 14/03/2026
+Page 1 of 1
+
+## discharge_summary
+Devika Medical Centre
+Indore, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Yash Bhat Age / Sex 12 years / Male
+Admitted 09.03.2026 21:45 hrs Discharged 14.03.2026 00:45 hrs
+Accommodation Single private AC Length of stay 4 days 3 hours
+Treating doctor Dr Nandini Pillai Regn. No. MPMC/2011/73543
+DIAGNOSIS
+Final diagnosis Broken shin bone
+Procedure performed Fracture fixation
+Nature of injury Sustained in a fall while crossing the road
+PRESENTING COMPLAINTS
+Yash Bhat, a 12-year-old male, was brought in with pain and swelling of the leg following a fall while crossing the road, and
+was unable to bear weight on the limb.
+HISTORY
+The trouble had been going on since the time of the fa"
+case-000652,NEW_INDIA_MEDICLAIM,medium,medium,medium-route,Qwen3.6-27B,0.0239,0.8733,0.8972,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/3558752 Policy period 06.11.2025 to 05.11.2026
+Name of the
+insured person
+Divya Menon Age / Sex 37 / Female
+Relationship to
+the policyholder
+Spouse Claim No. CL202688294124
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Yashodhan Medical Centre
+City Lucknow
+Date and time of admission 28.04.2026 19:30 hrs
+Date and time of discharge 30.04.2026 19:15 hrs
+Treating doctor Dr Nikhil Reddy
+Room category General ward
+Nature of illness or injury Urinary tract infection (ICD-10 N39.0)
+Total amount claimed ₹30,114
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Divya Menon
+Date: 30.04.2026
+Page 1 of 1
+
+## discharge_summary
+Yashodhan Medical Centre
+Lucknow, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Divya Menon Age / Sex 37 years / Female
+Admitted 28 April 2026 19:30 hrs Discharged 30 April 2026 19:15 hrs
+Accommodation General ward Length of stay 1 day 23 hours
+Treating doctor Dr Nikhil Reddy Regn. No. UPMC/2013/19887
+DIAGNOSIS
+Final diagnosis Urinary tract infection
+PRESENTING COMPLAINTS
+Divya Menon came in with burning while passing urine and lower abdominal discomfort for a few days, along with fever.
+HISTORY
+The trouble had been going on for a few days before admission. She had taken some medicines at home without relief. There
+is no significant past history.
+ON EXAMINATION
+On admission she was conscious and oriented, and looked unwell. The abdomen was soft, with tenderness in the lower part.
+The u"
+case-000196,AROGYA_SANJEEVANI_GCI,hard,medium,medium-route,Qwen3.6-27B,0.0159,0.8823,0.8982,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/2247167 Policy period 06/04/2025 to 05/04/2026
+Name of the
+insured person
+Rahul Fernandes Age / Sex 16 / Male
+Relationship to
+the policyholder
+Child Claim No. CL202550348298
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Arogyam Superspeciality Hospital
+City Surat
+Date and time of admission 19/11/2025 1:15 AM
+Date and time of discharge 23/11/2025 6:15 AM
+Treating doctor Dr Divya Pandey
+Room category Twin sharing
+Nature of illness or injury Lobar pneumonia with consolidation
+Total amount claimed Rs. 37,156
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Rahul Fernandes
+Date: 23/11/2025
+Page 1 of 1
+
+## discharge_summary
+Arogyam Superspeciality Hospital
+Surat, India
+Department of Medical Records
+Discharge Summary
+Patient Rahul Fernandes Age / Sex 16 years / Male
+Admitted 18.11.2025 18:15 hrs Discharged 22.11.2025 23:15 hrs
+Accommodation Twin sharing Treating doctor Dr Divya Pandey
+Regn. No. GMC/2003/16509
+Diagnosis
+Final diagnosis Lobar pneumonia with consolidation
+Presenting Complaints
+Rahul  Fernandes,  a  16-year-old  male,  came  in  with  fever  and  cough  with  expectoration  for  a  few  days,  along  with
+breathlessness on exertion.
+History
+The symptoms had been going on for a few days before admission. He had taken some medicines at home without much
+relief. There was no significant past history.
+On Examination
+On admission, the patient was conscious and oriented, and looked unwell. Examination of t"
+case-000093,AROGYA_SANJEEVANI_GCI,hard,hard,hard-route,Qwen3.6-27B,0.0422,0.8735,0.9157,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/8489777 Policy period 13/09/2025 to 12/09/2026
+Name of the
+insured person
+Sunita Verma Age / Sex 66 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202680361264
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Suryoday Multispeciality Hospital
+City Madurai
+Date and time of admission 05/04/2026 10:00 PM
+Date and time of discharge 11/04/2026 6:30 AM
+Treating doctor Dr Lakshmi Sharma
+Room category General ward
+Nature of illness or injury Displaced intracapsular fracture of the neck of the femur
+Treatment or operation Total hip arthroplasty
+If an injury, how it occurred Sustained in a fall down a flight of stairs
+Total amount claimed Rs. 3,20,157
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Sunita Verma
+Date: 11/04/2026
+Page 1 of 1
+
+## discharge_summary
+Suryoday Multispeciality Hospital
+Madurai, India
+Department of Medical Records
+Discharge Summary
+Patient Sunita Verma Age / Sex 66 years / Female
+Admitted 05.04.2026 22:00 hrs Discharged 11.04.2026 06:30 hrs
+Accommodation General ward Treating doctor Dr Lakshmi Sharma
+Regn. No. TNMC/2005/82756
+Diagnosis
+Final diagnosis Displaced intracapsular fracture of the neck of the femur
+Procedure performed Total hip arthroplasty
+Nature of injury Sustained in a fall down a flight of stairs
+Presenting Complaints
+Sunita Verma, a 66-year-old female, was brought in with pain in the hip and inability to bear weight on the affected
+limb following a fall down a flight"
+case-000876,NEW_INDIA_MEDICLAIM,hard,medium,medium-route,Qwen3.6-27B,0.0051,0.9062,0.9113,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/8767043 Policy period 15.08.2025 to 14.08.2026
+Name of the
+insured person
+Rahul Agarwal Age / Sex 53 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202686354428
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Devika Medical Centre
+City Bhubaneswar
+Date and time of admission 31.01.2026 01:30 hrs
+Date and time of discharge 08.02.2026 01:15 hrs
+Treating doctor Dr Rohan Singh
+Room category General ward
+Nature of illness or injury Hypertensive heart disease with congestive heart failure
+Total amount claimed ₹81,801
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Rahul Agarwal
+Date: 08.02.2026
+Page 1 of 1
+
+## discharge_summary
+Devika Medical Centre
+Bhubaneswar, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Rahul Agarwal Age / Sex 53 years / Male
+Admitted 31 January 2026 01:30 hrs Discharged 8 February 2026 01:15 hrs
+Accommodation General ward Treating doctor Dr Rohan Singh
+Regn. No. OCMR/2007/73966
+DIAGNOSIS
+Final diagnosis Hypertensive heart disease with congestive heart failure
+PRESENTING COMPLAINTS
+Rahul Agarwal came in with breathlessness on exertion and swelling of both feet, which had been increasing over the recent
+past.
+HISTORY
+The trouble had been going on for some time, and he had been taking medicines for high blood pressure for a long while.
+There was no significant past history of any other illness.
+ON EXAMINATION
+On examination the patient was conscious and oriented, with puff"
+case-000133,AROGYA_SANJEEVANI_GCI,medium,hard,hard-route,Qwen3.6-27B,0.0507,0.8459,0.8966,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/3790899 Policy period 30/01/2025 to 29/01/2026
+Name of the
+insured person
+Bhavna Iyer Age / Sex 11 / Female
+Relationship to
+the policyholder
+Child Claim No. CL202620471818
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Devika Multispeciality Hospital
+City Kanpur
+Date and time of admission 13/01/2026 11:15 AM
+Date and time of discharge 15/01/2026 11:00 AM
+Treating doctor Dr Farhan Bhat
+Room category General ward
+Nature of illness or injury Broken wrist (ICD-10 S52.5)
+Treatment or operation Wrist fracture fixation
+If an injury, how it occurred Sustained in a fall on an outstretched hand
+Total amount claimed Rs. 50,946
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Bhavna Iyer
+Date: 15/01/2026
+Page 1 of 1
+
+## discharge_summary
+Devika Multispeciality Hospital
+Kanpur, India
+Department of Medical Records
+Discharge Summary
+Patient Bhavna Iyer Age / Sex 11 years / Female
+Admitted 13 January 2026 11:15 hrs Discharged 15 January 2026 11:00 hrs
+Accommodation General ward Length of stay 1 day 23 hours
+Treating doctor Dr Farhan Bhat Regn. No. UPMC/2017/34271
+Diagnosis
+Final diagnosis Broken wrist
+Procedure performed Wrist fracture fixation
+Nature of injury Sustained in a fall on an outstretched hand
+Presenting Complaints
+Bhavna Iyer came in with pain and swelling of the wrist following a fall on an outstretched hand.
+History
+The trouble had been going on since the time of the fall, a few hours before coming in. No fir"
+case-000944,NEW_INDIA_MEDICLAIM,medium,medium,medium-route,Qwen3.6-27B,0.0052,0.9095,0.9147,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/6299796 Policy period 21.12.2025 to 20.12.2026
+Name of the
+insured person
+Lakshmi Fernandes Age / Sex 52 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202612203201
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Suryoday Multispeciality Hospital
+City Bhopal
+Date and time of admission 22.06.2026 07:15 hrs
+Date and time of discharge 02.07.2026 06:45 hrs
+Treating doctor Dr Amit Agarwal
+Room category General ward
+Nature of illness or injury Coronary artery disease (ICD-10 I25.1)
+Treatment or operation Bypass surgery
+Total amount claimed ₹3,70,357
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Lakshmi Fernandes
+Date: 02.07.2026
+Page 1 of 1
+
+## discharge_summary
+Suryoday Multispeciality Hospital
+Bhopal, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Lakshmi Fernandes Age / Sex 52 years / Female
+Admitted 22-Jun-2026 7:15 AM Discharged 02-Jul-2026 6:45 AM
+Accommodation General ward Length of stay 9 days 23 hours
+Treating doctor Dr Amit Agarwal Regn. No. MPMC/2012/25281
+DIAGNOSIS
+Final diagnosis Coronary artery disease
+Procedure performed Bypass surgery
+PRESENTING COMPLAINTS
+Lakshmi Fernandes came with complaints of chest discomfort and breathlessness on exertion for some time,
+which had been increasing in frequency.
+HISTORY
+The symptoms had been present for a few weeks and were not relieved by rest or medicines taken at home. No
+significant past history of any long-standing illness was rep"
+case-000699,NEW_INDIA_MEDICLAIM,easy,medium,medium-route,Qwen3.6-27B,-0.01,0.9074,0.8974,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/7479324 Policy period 04.09.2025 to 03.09.2026
+Name of the
+insured person
+Bhavna Gupta Age / Sex 12 / Female
+Relationship to
+the policyholder
+Child Claim No. CL202663928428
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Suryoday Medical Centre
+City Bhopal
+Date and time of admission 09.08.2026 10:30 hrs
+Date and time of discharge 10.08.2026 17:00 hrs
+Treating doctor Dr Vikram Gupta
+Room category General ward
+Nature of illness or injury Head injury (ICD-10 S06.0)
+If an injury, how it occurred Sustained in a fall from a bicycle
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 09.08.2026 ₹2,800
+2 Nursing charges 09.08.2026 ₹1,000
+3 Consultant visits 09.08.2026 ₹1,800
+4 Pharmacy and medicines 09.08.2026 ₹2,564
+5 Laboratory and imaging 09.08.2026 ₹11,978
+6 Medical consumables (syringes, IV sets) 09.08.2026 ₹1,561
+7 Pulse oximeter charges 09.08.2026 ₹590
+Room rent per day ₹1,400
+Total amount claimed ₹22,293
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Bhavna Gupta
+Date: 10.08.2026
+Page 1 of 1
+
+## discharge_summary
+Suryoday Medical Centre
+Bhopal, India
+Department of Medical Records
+Discharge Summary
+Patient Bhavna Gupta Age / Sex 12 years / Female
+Admitted 09.08.2026 10:30 AM Discharged 10.08.2026 5:00 PM
+Accommodation General ward Length of stay 1 day 6 hours
+Treating doctor Dr Vikram Gupta Regn. No. MPMC/2020/41761
+Diagnosis
+Final diagnosis Head injury
+Nature of injury Sustained in"
+case-000823,NEW_INDIA_MEDICLAIM,medium,hard,hard-route,Qwen3.6-27B,0.029,0.8765,0.9055,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/9125499 Policy period 21.01.2025 to 20.01.2026
+Name of the
+insured person
+Yamini Khan Age / Sex 65 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202519553162
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Pranjal Medical Centre
+City Bhopal
+Date and time of admission 11.03.2025 00:30 hrs
+Date and time of discharge 13.03.2025 08:45 hrs
+Treating doctor Dr Vandana Bhat
+Room category General ward
+Nature of illness or injury Piles (ICD-10 K64.9)
+Treatment or operation Piles surgery
+Total amount claimed ₹70,990
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Yamini Khan
+Date: 13.03.2025
+Page 1 of 1
+
+## discharge_summary
+Pranjal Medical Centre
+Bhopal, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Yamini Khan Age / Sex 65 years / Female
+Admitted 11-Mar-2025 12:30 AM Discharged 13-Mar-2025 8:45 AM
+Accommodation General ward Length of stay 2 days 8 hours
+Treating doctor Dr Vandana Bhat Regn. No. MPMC/2019/94001
+DIAGNOSIS
+Final diagnosis Piles
+Procedure performed Piles surgery
+PRESENTING COMPLAINTS
+Yamini Khan, a 65-year-old female, came with complaints of painful swellings at the anal region and bleeding per rectum,
+which had been troubling her for some time.
+HISTORY
+The complaints had been present for a long duration and had not settled with medicines taken earlier. There was no significant
+past history of any other illness.
+ON EXAMINATION
+On examination, the patient was conscious and orien"
+case-000858,NEW_INDIA_MEDICLAIM,medium,medium,medium-route,Qwen3.6-27B,0.0015,0.8822,0.8837,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/6873321 Policy period 07.03.2025 to 06.03.2026
+Name of the
+insured person
+Usha Menon Age / Sex 66 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202563803280
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Pranjal Nursing Home
+City Chandigarh
+Date and time of admission 31.08.2025 00:00 hrs
+Date and time of discharge 08.09.2025 05:00 hrs
+Treating doctor Dr Tarun Sinha
+Room category Deluxe room
+Nature of illness or injury Heart failure due to high blood pressure (ICD-10 I11.0)
+Total amount claimed ₹1,64,514
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Usha Menon
+Date: 08.09.2025
+Page 1 of 1
+
+## discharge_summary
+Pranjal Nursing Home
+Chandigarh, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Usha Menon Age / Sex 66 years / Female
+Admitted 31/08/2025 00:00 hrs Discharged 08/09/2025 05:00 hrs
+Accommodation Deluxe room Length of stay 8 days 5 hours
+Treating doctor Dr Tarun Sinha Regn. No. PMC/2020/43056
+DIAGNOSIS
+Final diagnosis Heart failure due to high blood pressure
+PRESENTING COMPLAINTS
+Usha Menon, a 66-year-old female, was admitted on 31/08/2025 00:00 hrs with breathlessness on exertion and
+swelling of the feet, in keeping with Heart failure due to high blood pressure.
+HISTORY
+The complaints had been troubling the patient for some time before admission, and she had been taking treatment
+for high blood pressure for a long period. There was no other significant past history.
+ON EXAMI"
+case-000608,NEW_INDIA_MEDICLAIM,hard,medium,medium-route,Qwen3.6-27B,0.0128,0.8891,0.902,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/7896642 Policy period 27.06.2025 to 26.06.2026
+Name of the
+insured person
+Rohan Chatterjee Age / Sex 59 / Male
+Relationship to
+the policyholder
+Spouse Claim No. CL202615586795
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Nirmiti Multispeciality Hospital
+City Coimbatore
+Date and time of admission 17.05.2026 16:45 hrs
+Date and time of discharge 18.05.2026 23:15 hrs
+Treating doctor Dr Usha Khan
+Room category General ward
+Nature of illness or injury Comminuted fracture of the nasal bones, post-traumatic deformity
+Treatment or operation Post-traumatic reconstructive septorhinoplasty
+If an injury, how it occurred Sustained in an injury sustained while playing
+Total amount claimed ₹1,11,909
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Rohan Chatterjee
+Date: 18.05.2026
+Page 1 of 1
+
+## discharge_summary
+Nirmiti Multispeciality Hospital
+Coimbatore, India
+Department of Medical Records
+Discharge Summary
+Patient Rohan Chatterjee Age / Sex 59 years / Male
+Admitted 17/05/2026 16:45 hrs Discharged 18/05/2026 23:15 hrs
+Accommodation General ward Treating doctor Dr Usha Khan
+Regn. No. TNMC/2004/56987
+Diagnosis
+Final diagnosis Comminuted fracture of the nasal bones, post-traumatic deformity
+Procedure performed Post-traumatic reconstructive septorhinoplasty
+Nature of injury Sustained in an injury sustained while playing
+Presenting Complaints
+Rohan Chatterjee, a 59-year-old male, was brought in with pain, swelling and deform"
+case-000263,AROGYA_SANJEEVANI_GCI,medium,medium,medium-route,Qwen3.6-27B,0.0049,0.9023,0.9072,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/4388504 Policy period 13/10/2025 to 12/10/2026
+Name of the
+insured person
+Usha Sharma Age / Sex 57 / Female
+Relationship to
+the policyholder
+Spouse Claim No. CL202647981116
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Chandrika Superspeciality Hospital
+City Pune
+Date and time of admission 28/08/2026 1:30 AM
+Date and time of discharge 03/09/2026 9:45 AM
+Treating doctor Dr Farhan Saxena
+Room category Twin sharing
+Nature of illness or injury Low back pain (ICD-10 M54.5)
+System of medicine Homeopathy
+Type of facility General hospital; not registered as an AYUSH hospital
+Total amount claimed Rs. 57,971
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Usha Sharma
+Date: 03/09/2026
+Page 1 of 1
+
+## discharge_summary
+Chandrika Superspeciality Hospital
+Pune, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Usha Sharma Age / Sex 57 years / Female
+Admitted 28/08/2026 01:30 hrs Discharged 03/09/2026 09:45 hrs
+Accommodation Twin sharing Length of stay 6 days 8 hours
+System of
+medicine
+Homeopathy Facility General hospital; not registered as an
+AYUSH hospital
+Treating doctor Dr Farhan Saxena Regn. No. MMC/2000/21556
+DIAGNOSIS
+Final diagnosis Low back pain
+PRESENTING COMPLAINTS
+Usha Sharma came in with complaints of low back pain that had been troubling her for some time, with difficulty in
+movement and routine activity.
+HISTORY
+The trouble had been going on for a few weeks before admission. She had taken some"
+case-000082,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0406,0.9567,0.9161,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/8799125 Policy period 05/10/2025 to 04/10/2026
+Name of the
+insured person
+Tarun Gupta Age / Sex 23 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202622257633
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Vasundhara Multispeciality Hospital
+City Indore
+Date and time of admission 27/05/2026 2:00 AM
+Date and time of discharge 31/05/2026 2:15 AM
+Treating doctor Dr Imran Agarwal
+Room category Twin sharing
+Nature of illness or injury Pneumonia (ICD-10 J18.9)
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Twin sharing) 27/05/2026 Rs. 14,500
+2 Nursing charges 27/05/2026 Rs. 4,250
+3 Consultant visits 27/05/2026 Rs. 4,000
+4 Pharmacy and medicines 27/05/2026 Rs. 4,877
+5 Laboratory and imaging 27/05/2026 Rs. 3,898
+6 Medical consumables (syringes, IV sets) 27/05/2026 Rs. 773
+7 Digital thermometer 27/05/2026 Rs. 1,470
+Room rent per day Rs. 2,900
+Total amount claimed Rs. 33,768
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Tarun Gupta
+Date: 31/05/2026
+Page 1 of 1
+
+## discharge_summary
+Vasundhara Multispeciality Hospital
+Indore, India
+Department of Medical Records
+Discharge Summary
+Patient Tarun Gupta Age / Sex 23 years / Male
+Admitted 27.05.2026 2:00 AM Discharged 31.05.2026 2:15 AM
+Accommodation Twin sharing Length of stay 4 days
+Treating doctor Dr Imran Agarwal Regn. No. MPMC/2006/46452
+Diagnosis
+Final diagnosis Pneumonia
+Presenting Complaints
+Tarun Gupta came in with fever and cough wi"
+case-000020,AROGYA_SANJEEVANI_GCI,medium,medium,medium-route,Qwen3.6-27B,0.0127,0.8968,0.9095,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/1848392 Policy period 03/07/2025 to 02/07/2026
+Name of the
+insured person
+Ananya Fernandes Age / Sex 74 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202545613971
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Chandrika Nursing Home
+City Vadodara
+Date and time of admission 22/11/2025 4:30 AM
+Date and time of discharge 28/11/2025 8:00 AM
+Treating doctor Dr Sunita Desai
+Room category Twin sharing
+Nature of illness or injury Coronary artery disease (ICD-10 I25.1)
+Treatment or operation Bypass surgery
+Total amount claimed Rs. 3,93,126
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Ananya Fernandes
+Date: 28/11/2025
+Page 1 of 1
+
+## discharge_summary
+Chandrika Nursing Home
+Vadodara, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Ananya Fernandes Age / Sex 74 years / Female
+Admitted 22-Nov-2025 04:30 hrs Discharged 28-Nov-2025 08:00 hrs
+Accommodation Twin sharing Length of stay 6 days 3 hours
+Treating doctor Dr Sunita Desai Regn. No. GMC/2018/16414
+DIAGNOSIS
+Final diagnosis Coronary artery disease
+Procedure performed Bypass surgery
+PRESENTING COMPLAINTS
+Ananya Fernandes, a 74-year-old female, came in with chest discomfort and breathlessness on exertion that had
+been troubling her for some time.
+HISTORY
+The symptoms had been going on for a few weeks and had become more frequent despite rest and medicines
+taken at home. She is a known case of Coronary artery disease and has been under fo"
+case-000675,NEW_INDIA_MEDICLAIM,medium,medium,medium-route,Qwen3.6-27B,0.0164,0.8841,0.9005,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/2127047 Policy period 18.01.2025 to 17.01.2026
+Name of the
+insured person
+Zoya Kapoor Age / Sex 77 / Female
+Relationship to
+the policyholder
+Parent Claim No. CL202566048664
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Suryoday Medical Centre
+City Kanpur
+Date and time of admission 29.03.2025 23:00 hrs
+Date and time of discharge 02.04.2025 02:15 hrs
+Treating doctor Dr Varun Joshi
+Room category General ward
+Nature of illness or injury Heart attack (ICD-10 I21.9)
+Treatment or operation Angioplasty with stent
+Total amount claimed ₹1,79,597
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Zoya Kapoor
+Date: 02.04.2025
+Page 1 of 1
+
+## discharge_summary
+Suryoday Medical Centre
+Kanpur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Zoya Kapoor Age / Sex 77 years / Female
+Admitted 29/03/2025 11:00 PM Discharged 02/04/2025 2:15 AM
+Accommodation General ward Intensive care 1 day
+Length of stay 3 days 3 hours Treating doctor Dr Varun Joshi
+Regn. No. UPMC/2022/62403
+DIAGNOSIS
+Final diagnosis Heart attack
+Procedure performed Angioplasty with stent
+PRESENTING COMPLAINTS
+Patient Zoya Kapoor, a 77-year-old female, was brought to Suryoday Medical Centre with complaints of severe chest pain and
+shortness of breath that had been worsening over the preceding few hours.
+HISTORY
+The chest discomfort had been intermittent for some days before admission and had not settled with rest. No significant past
+history of simil"
+case-000088,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0454,0.9598,0.9145,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/8826537 Policy period 28/08/2025 to 27/08/2026
+Name of the
+insured person
+Pranav Mishra Age / Sex 32 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202563966505
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Tejaswini Hospital
+City Surat
+Date and time of admission 09/09/2025 6:15 PM
+Date and time of discharge 11/09/2025 11:45 PM
+Treating doctor Dr Sanjay Pandey
+Room category General ward
+Nature of illness or injury Appendicitis (ICD-10 K35.8)
+Treatment or operation Appendix removal
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 09/09/2025 Rs. 3,600
+2 Nursing charges 09/09/2025 Rs. 2,400
+3 Surgeon's fee 09/09/2025 Rs. 24,500
+4 Anaesthetist's fee 09/09/2025 Rs. 5,100
+5 Operation theatre charges 09/09/2025 Rs. 22,500
+6 Consultant visits 09/09/2025 Rs. 2,100
+7 Pharmacy and medicines 09/09/2025 Rs. 4,004
+8 Laboratory and imaging 09/09/2025 Rs. 2,092
+9 Medical consumables (syringes, IV sets) 09/09/2025 Rs. 548
+10 Shoe covers 09/09/2025 Rs. 1,480
+11 Consultation before admission 16/07/2025 Rs. 900
+12 Tests before admission 29/08/2025 Rs. 1,270
+13 Follow-up consultation 13/10/2025 Rs. 1,100
+14 Medicines after discharge 19/10/2025 Rs. 3,740
+Room rent per day Rs. 1,200
+Page 1 of 2
+Total amount claimed Rs. 75,334
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Pranav Mishra
+Date: 11/09/2025
+Page 2 of 2
+
+## discharge_summary
+Tejaswini Hospital
+Surat, India
+Department of Medic"
+case-000653,NEW_INDIA_MEDICLAIM,medium,hard,hard-route,Qwen3.6-27B,0.0318,0.845,0.8768,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/6401567 Policy period 11.11.2025 to 10.11.2026
+Name of the
+insured person
+Usha Chatterjee Age / Sex 38 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202622651918
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Saanvi Hospital
+City Indore
+Date and time of admission 28.07.2026 12:15 hrs
+Date and time of discharge 01.08.2026 17:45 hrs
+Treating doctor Dr Priya Das
+Room category General ward
+Nature of illness or injury Appendicitis (ICD-10 K35.8)
+Treatment or operation Appendix removal
+Total amount claimed ₹94,484
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Usha Chatterjee
+Date: 01.08.2026
+Page 1 of 1
+
+## discharge_summary
+Saanvi Hospital
+Indore, India
+Department of Medical Records
+Discharge Summary
+Patient Usha Chatterjee Age / Sex 38 years / Female
+Admitted 28.07.2026 12:15 PM Discharged 01.08.2026 5:45 PM
+Accommodation General ward Length of stay 4 days 5 hours
+Treating doctor Dr Priya Das Regn. No. MPMC/1996/74186
+Diagnosis
+Final diagnosis Appendicitis
+Other conditions Hypertension
+Procedure performed Appendix removal
+Presenting Complaints
+Usha Chatterjee came with pain in the abdomen and vomiting since a few days, not settling with medicines taken
+at home.
+History
+The trouble had been going on for a few days before coming in, and medicines taken at home gave no relief. She
+is a known case of Hypertension.
+On Examination
+On examination the patient was conscious and oriented, in mild discomfort."
+case-000721,NEW_INDIA_MEDICLAIM,hard,medium,medium-route,Qwen3.6-27B,0.021,0.8967,0.9177,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/3988698 Policy period 19.12.2025 to 18.12.2026
+Name of the
+insured person
+Meera Sharma Age / Sex 6 / Female
+Relationship to
+the policyholder
+Child Claim No. CL202699263513
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Devika Hospital
+City Bhopal
+Date and time of admission 26.12.2025 20:30 hrs
+Date and time of discharge 01.01.2026 20:45 hrs
+Treating doctor Dr Sunita Agarwal
+Room category General ward
+Nature of illness or injury Lobar pneumonia with consolidation
+Total amount claimed ₹42,315
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Meera Sharma
+Date: 01.01.2026
+Page 1 of 1
+
+## discharge_summary
+Devika Hospital
+Bhopal, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Meera Sharma Age / Sex 6 years / Female
+Admitted 24.01.2026 20:30 hrs Discharged 30.01.2026 20:45 hrs
+Accommodation General ward Treating doctor Dr Sunita Agarwal
+Regn. No. MPMC/2005/26228
+DIAGNOSIS
+Final diagnosis Lobar pneumonia with consolidation
+PRESENTING COMPLAINTS
+Meera  Sharma,  a  6-year-old  female,  was  brought  with  fever  and  cough  for  a  few  days,  and  fast  breathing  with  chest
+discomfort. She was admitted on 24.01.2026 20:30 hrs for further evaluation and management.
+HISTORY
+The child had been unwell for a few days with cough and fever, and had been given medicines at home without relief. There is
+no significant past history of any long-standing illness.
+ON EXAMINATION
+On admission, the child was conscio"
+case-000550,NEW_INDIA_MEDICLAIM,easy,easy,easy-route,gemma-12b,-0.0298,0.9528,0.923,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/1402605 Policy period 21.10.2025 to 20.10.2026
+Name of the
+insured person
+Karan Saxena Age / Sex 76 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202619716087
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Pranjal Medical Centre
+City Kanpur
+Date and time of admission 08.01.2026 19:15 hrs
+Date and time of discharge 18.01.2026 00:00 hrs
+Treating doctor Dr Sunita Pandey
+Room category General ward
+Nature of illness or injury Coronary artery disease (ICD-10 I25.1)
+Treatment or operation Bypass surgery
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 08.01.2026 ₹12,000
+2 Nursing charges 08.01.2026 ₹7,500
+3 Surgeon's fee 08.01.2026 ₹1,39,500
+4 Anaesthetist's fee 08.01.2026 ₹32,000
+5 Operation theatre charges 08.01.2026 ₹1,01,000
+6 Consultant visits 08.01.2026 ₹10,500
+7 Pharmacy and medicines 08.01.2026 ₹69,198
+8 Laboratory and imaging 08.01.2026 ₹31,086
+9 Medical consumables (syringes, IV sets) 08.01.2026 ₹1,443
+10 Toiletries 08.01.2026 ₹1,240
+Room rent per day ₹1,200
+Total amount claimed ₹4,05,467
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Page 1 of 2
+Signature of the insured person: Karan Saxena
+Date: 18.01.2026
+Page 2 of 2
+
+## discharge_summary
+Pranjal Medical Centre
+Kanpur, India
+Department of Medical Records
+Discharge Summary
+Patient Karan Saxena Age / Sex 76 years / Male
+Admitted 08-Jan-2026 19:15 hrs Discharged 18-Jan-2026 00:00 hrs
+Accommodation General ward Length of stay 9 days 4 hours
+Treati"
+case-000415,AROGYA_SANJEEVANI_GCI,medium,medium,medium-route,Qwen3.6-27B,0.0089,0.895,0.9039,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/7370894 Policy period 23/12/2025 to 22/12/2026
+Name of the
+insured person
+Manoj Fernandes Age / Sex 73 / Male
+Relationship to
+the policyholder
+Parent Claim No. CL202678109301
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Pranjal Multispeciality Hospital
+City Madurai
+Date and time of admission 12/10/2026 12:15 AM
+Date and time of discharge 16/10/2026 6:45 AM
+Treating doctor Dr Gauri Mishra
+Room category General ward
+Nature of illness or injury Heart attack (ICD-10 I21.9)
+Treatment or operation Angioplasty with stent
+Total amount claimed Rs. 1,91,885
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Manoj Fernandes
+Date: 16/10/2026
+Page 1 of 1
+
+## discharge_summary
+Pranjal Multispeciality Hospital
+Madurai, India
+Department of Medical Records
+Discharge Summary
+Patient Manoj Fernandes Age / Sex 73 years / Male
+Admitted 12/10/2026 12:15 AM Discharged 16/10/2026 6:45 AM
+Accommodation General ward Length of stay 4 days 6 hours
+Treating doctor Dr Gauri Mishra Regn. No. TNMC/2019/73431
+Diagnosis
+Final diagnosis Heart attack
+Procedure performed Angioplasty with stent
+Presenting Complaints
+Manoj Fernandes came in with severe chest pain and breathlessness that had been troubling him for a few hours
+before arrival.
+History
+The chest discomfort had been building up over a short period and did not ease with rest. No significant past
+history was reported.
+On Examination
+On admission, Manoj Fernandes was conscious and orien"
+case-000046,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0419,0.963,0.9211,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/1164147 Policy period 30/11/2025 to 29/11/2026
+Name of the
+insured person
+Gaurav Das Age / Sex 56 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202615622342
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Chandrika Multispeciality Hospital
+City Surat
+Date and time of admission 19/09/2026 11:45 PM
+Date and time of discharge 22/09/2026 9:30 PM
+Treating doctor Dr Arjun Verma
+Room category Twin sharing
+Nature of illness or injury Asthma attack (ICD-10 J45.9)
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Twin sharing) 19/09/2026 Rs. 12,900
+2 Nursing charges 19/09/2026 Rs. 1,800
+3 Consultant visits 19/09/2026 Rs. 2,700
+4 Pharmacy and medicines 19/09/2026 Rs. 5,931
+5 Laboratory and imaging 19/09/2026 Rs. 2,188
+6 Medical consumables (syringes, IV sets) 19/09/2026 Rs. 1,916
+7 Registration charges 19/09/2026 Rs. 1,390
+8 Admission kit 19/09/2026 Rs. 100
+9 Documentation charges 19/09/2026 Rs. 440
+Room rent per day Rs. 4,300
+Total amount claimed Rs. 29,365
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Gaurav Das
+Date: 22/09/2026
+Page 1 of 1
+
+## discharge_summary
+Chandrika Multispeciality Hospital
+Surat, India
+Department of Medical Records
+Discharge Summary
+Patient Gaurav Das Age / Sex 56 years / Male
+Admitted 19-Sep-2026 23:45 hrs Discharged 22-Sep-2026 21:30 hrs
+Accommodation Twin sharing Length of stay 2 days 21 hours
+Treating doctor Dr Arjun Verma Regn. No. GMC/2010/53978
+Diagnosis
+Fi"
+case-000040,AROGYA_SANJEEVANI_GCI,hard,medium,medium-route,Qwen3.6-27B,0.019,0.8943,0.9133,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/1792932 Policy period 17/05/2025 to 16/05/2026
+Name of the
+insured person
+Sanjay Reddy Age / Sex 5 / Male
+Relationship to
+the policyholder
+Child Claim No. CL202598308158
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Vasundhara Nursing Home
+City Visakhapatnam
+Date and time of admission 17/06/2025 3:30 PM
+Date and time of discharge 23/06/2025 1:00 PM
+Treating doctor Dr Meera Desai
+Room category Twin sharing
+Nature of illness or injury Lobar pneumonia with consolidation
+Total amount claimed Rs. 63,392
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Sanjay Reddy
+Date: 23/06/2025
+Page 1 of 1
+
+## discharge_summary
+Vasundhara Nursing Home
+Visakhapatnam, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Sanjay Reddy Age / Sex 5 years / Male
+Admitted 17.06.2025 15:30 hrs Discharged 23.06.2025 13:00 hrs
+Accommodation Twin sharing Intensive care 1 day
+Treating doctor Dr Meera Desai Regn. No. APMC/2004/58366
+DIAGNOSIS
+Final diagnosis Lobar pneumonia with consolidation
+PRESENTING COMPLAINTS
+Sanjay Reddy, a 5-year-old male, was brought with fever and cough with expectoration for a few days, and difficulty in
+breathing since the day before admission.
+HISTORY
+The child had been unwell for a few days with fever and cough. He was given medicines at home by a local doctor without
+much relief. There is no significant past history.
+ON EXAMINATION
+On admission the child was conscious but appeared unwell and was bre"
+case-000542,NEW_INDIA_MEDICLAIM,easy,medium,medium-route,Qwen3.6-27B,-0.0052,0.9298,0.9247,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/8102784 Policy period 11.11.2025 to 10.11.2026
+Name of the
+insured person
+Meera Iyer Age / Sex 40 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202646929370
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Harshal Medical Centre
+City Bhopal
+Date and time of admission 04.04.2026 20:30 hrs
+Date and time of discharge 10.04.2026 02:15 hrs
+Treating doctor Dr Zubin Menon
+Room category General ward
+Nature of illness or injury Fibroids in the uterus (ICD-10 D25.9)
+Treatment or operation Removal of the uterus
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 04.04.2026 ₹7,200
+2 Nursing charges 04.04.2026 ₹2,400
+3 Surgeon's fee 04.04.2026 ₹42,500
+4 Anaesthetist's fee 04.04.2026 ₹8,900
+5 Operation theatre charges 04.04.2026 ₹28,500
+6 Consultant visits 04.04.2026 ₹6,600
+7 Pharmacy and medicines 04.04.2026 ₹13,659
+8 Laboratory and imaging 04.04.2026 ₹4,989
+9 Medical consumables (syringes, IV sets) 04.04.2026 ₹1,601
+10 Shoe covers 04.04.2026 ₹730
+11 Digital thermometer 04.04.2026 ₹1,290
+12 Multivitamin tablets (over the counter, not prescribed) 04.04.2026 ₹1,320
+Room rent per day ₹1,200
+Total amount claimed ₹1,19,689
+Page 1 of 2
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Meera Iyer
+Date: 10.04.2026
+Page 2 of 2
+
+## discharge_summary
+Harshal Medical Centre
+Bhopal, India
+Department of Medical Records
+Discharge Summary
+Patient Meera Iyer Age / Sex 40 years / Female
+Admitted 04.04.2"
+case-000656,NEW_INDIA_MEDICLAIM,hard,hard,hard-route,Qwen3.6-27B,0.0275,0.9143,0.9419,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/6504992 Policy period 06.11.2025 to 05.11.2026
+Name of the
+insured person
+Vandana Agarwal Age / Sex 70 / Female
+Relationship to
+the policyholder
+Parent Claim No. CL202682057533
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Tejaswini Hospital
+City Bhubaneswar
+Date and time of admission 28.10.2026 06:15 hrs
+Date and time of discharge 31.10.2026 13:15 hrs
+Treating doctor Dr Sanjay Agarwal
+Room category Single private AC
+Nature of illness or injury Unilateral inguinal hernia without obstruction or gangrene
+Treatment or operation Lichtenstein tension-free mesh hernioplasty
+Total amount claimed ₹1,23,387
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Vandana Agarwal
+Date: 31.10.2026
+Page 1 of 1
+
+## discharge_summary
+Tejaswini Hospital
+Bhubaneswar, India
+Department of Medical Records
+Discharge Summary
+Patient Vandana Agarwal Age / Sex 70 years / Female
+Admitted 28.10.2026 06:15 hrs Discharged 31.10.2026 13:15 hrs
+Accommodation Single private AC Treating doctor Dr Sanjay Agarwal
+Regn. No. OCMR/2021/52345
+Diagnosis
+Final diagnosis Unilateral inguinal hernia without obstruction or gangrene
+Procedure performed Lichtenstein tension-free mesh hernioplasty
+Presenting Complaints
+Vandana Agarwal came with a swelling in the groin and discomfort in that region for some time.
+History
+The trouble had been going on for a few weeks and had been increasing gradually. No medicine had given relief before
+coming in. No significant p"
+case-000717,NEW_INDIA_MEDICLAIM,medium,hard,hard-route,Qwen3.6-27B,0.0822,0.8476,0.9298,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/5446092 Policy period 17.11.2025 to 16.11.2026
+Name of the
+insured person
+Zoya Desai Age / Sex 47 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202646646217
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Tejaswini Multispeciality Hospital
+City Madurai
+Date and time of admission 12.11.2026 15:30 hrs
+Date and time of discharge 15.11.2026 13:45 hrs
+Treating doctor Dr Manoj Sharma
+Room category Single private AC
+Nature of illness or injury Fibroids in the uterus (ICD-10 D25.9)
+Treatment or operation Removal of the uterus
+Total amount claimed ₹99,738
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Zoya Desai
+Date: 15.11.2026
+Page 1 of 1
+
+## discharge_summary
+Tejaswini Multispeciality Hospital
+Madurai, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Zoya Desai Age / Sex 47 years / Female
+Admitted 12/11/2026 3:30 PM Discharged 15/11/2026 1:45 PM
+Accommodation Single private AC Length of stay 2 days 22 hours
+Treating doctor Dr Manoj Sharma Regn. No. TNMC/2001/94447
+DIAGNOSIS
+Final diagnosis Fibroids in the uterus
+Other conditions Dyslipidaemia and Hypothyroidism
+Procedure performed Removal of the uterus
+PRESENTING COMPLAINTS
+Zoya Desai came in with a history of heavy and prolonged menstrual bleeding along with a dragging pain in the lower
+abdomen, which had been troubling her for some time.
+HISTORY
+The complaints had been present for a few months and had not settled with the medicines taken"
+case-000122,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0318,0.9538,0.922,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/8346358 Policy period 07/03/2025 to 06/03/2026
+Name of the
+insured person
+Gaurav Agarwal Age / Sex 64 / Male
+Relationship to
+the policyholder
+Parent Claim No. CL202578410108
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Suryoday Medical Centre
+City Dehradun
+Date and time of admission 04/05/2025 11:45 AM
+Date and time of discharge 12/05/2025 3:00 PM
+Treating doctor Dr Usha Kapoor
+Room category Deluxe room
+Nature of illness or injury Broken hip (ICD-10 S72.0)
+Treatment or operation Hip replacement
+If an injury, how it occurred Sustained in a fall at home
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Deluxe room) 04/05/2025 Rs. 95,850
+2 Nursing charges 04/05/2025 Rs. 4,050
+3 Surgeon's fee 04/05/2025 Rs. 1,18,500
+4 Anaesthetist's fee 04/05/2025 Rs. 35,500
+5 Operation theatre charges 04/05/2025 Rs. 36,500
+6 Hip prosthesis 04/05/2025 Rs. 1,38,500
+7 Consultant visits 04/05/2025 Rs. 7,200
+8 Pharmacy and medicines 04/05/2025 Rs. 10,311
+9 Laboratory and imaging 04/05/2025 Rs. 6,362
+10 Medical consumables (syringes, IV sets) 04/05/2025 Rs. 2,930
+11 Surgical gloves 04/05/2025 Rs. 770
+12 Urine bag 04/05/2025 Rs. 310
+13 Air conditioner charges 04/05/2025 Rs. 400
+Room rent per day Rs. 10,650
+Page 1 of 2
+Total amount claimed Rs. 4,57,183
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Gaurav Agarwal
+Date: 12/05/2025
+Page 2 of 2
+
+## discharge_summary
+Suryoday Medical Centre
+Dehradun, India
+Department o"
+case-000668,NEW_INDIA_MEDICLAIM,hard,hard,hard-route,Qwen3.6-27B,0.0398,0.8888,0.9286,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/4030775 Policy period 04.02.2025 to 03.02.2026
+Name of the
+insured person
+Vandana Pandey Age / Sex 35 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202525387533
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Tejaswini Nursing Home
+City Jaipur
+Date and time of admission 14.09.2025 06:15 hrs
+Date and time of discharge 19.09.2025 09:45 hrs
+Treating doctor Dr Nikhil Shetty
+Room category General ward
+Nature of illness or injury Leiomyoma of uterus with menorrhagia
+Treatment or operation Total laparoscopic hysterectomy
+Total amount claimed ₹1,10,035
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Vandana Pandey
+Date: 19.09.2025
+Page 1 of 1
+
+## discharge_summary
+Tejaswini Nursing Home
+Jaipur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Vandana Pandey Age / Sex 35 years / Female
+Admitted 14.09.2025 6:15 AM Discharged 19.09.2025 9:45 AM
+Accommodation General ward Treating doctor Dr Nikhil Shetty
+Regn. No. RMC/2000/49719
+DIAGNOSIS
+Final diagnosis Leiomyoma of uterus with menorrhagia
+Other conditions Bronchial asthma and Hypertension
+Procedure performed Total laparoscopic hysterectomy
+PRESENTING COMPLAINTS
+The patient came in with heavy menstrual bleeding and a known uterine swelling, for which she was advised surgery.
+HISTORY
+The trouble had been going on for some months, with heavy periods and a feeling of fullness in the lower abdomen. She had
+been taking medicines for relief before com"
+case-000920,NEW_INDIA_MEDICLAIM,medium,hard,hard-route,Qwen3.6-27B,0.0761,0.8565,0.9326,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/8709279 Policy period 20.06.2025 to 19.06.2026
+Name of the
+insured person
+Kavita Das Age / Sex 39 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202525170405
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Vasundhara Multispeciality Hospital
+City Kanpur
+Date and time of admission 01.08.2025 02:45 hrs
+Date and time of discharge 04.08.2025 02:15 hrs
+Treating doctor Dr Varun Kulkarni
+Room category Single private AC
+Nature of illness or injury Fibroids in the uterus (ICD-10 D25.9)
+Treatment or operation Removal of the uterus
+Total amount claimed ₹90,226
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Kavita Das
+Date: 04.08.2025
+Page 1 of 1
+
+## discharge_summary
+Vasundhara Multispeciality Hospital
+Kanpur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Kavita Das Age / Sex 39 years / Female
+Admitted 1 August 2025 02:45 hrs Discharged 4 August 2025 02:15 hrs
+Accommodation Single private AC Length of stay 2 days 23 hours
+Treating doctor Dr Varun Kulkarni Regn. No. UPMC/2017/93826
+DIAGNOSIS
+Final diagnosis Fibroids in the uterus
+Procedure performed Removal of the uterus
+PRESENTING COMPLAINTS
+Kavita Das came in with a history of lower abdominal pain and a feeling of heaviness in the pelvis, along with heavy bleeding
+during her periods, which had been troubling her for some time.
+HISTORY
+The complaints had been going on for a long while, and she had been taking medicines for the same without la"
+case-000226,AROGYA_SANJEEVANI_GCI,medium,medium,medium-route,Qwen3.6-27B,0.0154,0.8427,0.8581,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/4102042 Policy period 02/12/2025 to 01/12/2026
+Name of the
+insured person
+Yamini Sinha Age / Sex 81 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202666431431
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Amaltas Hospital
+City Coimbatore
+Date and time of admission 26/05/2026 8:00 AM
+Date and time of discharge 31/05/2026 1:15 PM
+Treating doctor Dr Sana Iyer
+Room category Single private AC
+Nature of illness or injury Diabetic foot infection (ICD-10 E11.5)
+Total amount claimed Rs. 92,671
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Yamini Sinha
+Date: 31/05/2026
+Page 1 of 1
+
+## discharge_summary
+Amaltas Hospital
+Coimbatore, India
+Department of Medical Records
+Discharge Summary
+Patient Yamini Sinha Age / Sex 81 years / Female
+Admitted 26/05/2026 8:00 AM Discharged 31/05/2026 1:15 PM
+Accommodation Single private AC Length of stay 5 days 5 hours
+Treating doctor Dr Sana Iyer Regn. No. TNMC/1997/82887
+Diagnosis
+Final diagnosis Diabetic foot infection
+Other conditions Hypertension
+Presenting Complaints
+Yamini Sinha came in with a wound on the foot that had been discharging and was not healing, along with pain
+and swelling of the affected part.
+History
+The trouble had been going on for some time before admission, and dressings and medicines taken at home had
+not helped. Yamini Sinha is a known case of Hypertension.
+On Examination
+On admission Yamini Sinha was conscious and oriented, and looked unwell"
+case-000618,NEW_INDIA_MEDICLAIM,medium,medium,medium-route,Qwen3.6-27B,0.0026,0.8737,0.8764,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/4691394 Policy period 08.11.2025 to 07.11.2026
+Name of the
+insured person
+Yamini Nair Age / Sex 54 / Female
+Relationship to
+the policyholder
+Spouse Claim No. CL202652871892
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Saanvi Hospital
+City Bhubaneswar
+Date and time of admission 13.02.2026 14:45 hrs
+Date and time of discharge 18.02.2026 12:15 hrs
+Treating doctor Dr Deepa Bhat
+Room category General ward
+Nature of illness or injury Heart failure due to high blood pressure (ICD-10 I11.0)
+Total amount claimed ₹53,915
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Yamini Nair
+Date: 18.02.2026
+Page 1 of 1
+
+## discharge_summary
+Saanvi Hospital
+Bhubaneswar, India
+Department of Medical Records
+Discharge Summary
+Patient Yamini Nair Age / Sex 54 years / Female
+Admitted 13-Feb-2026 14:45 hrs Discharged 18-Feb-2026 12:15 hrs
+Accommodation General ward Length of stay 4 days 21 hours
+Treating doctor Dr Deepa Bhat Regn. No. OCMR/2018/55274
+Diagnosis
+Final diagnosis Heart failure due to high blood pressure
+Presenting Complaints
+Yamini Nair came in with breathlessness on exertion and swelling of the feet, which had been increasing over the recent past.
+History
+The complaints had been present for some time and had worsened gradually. She had been taking medicines for high blood
+pressure for a long time. No other significant past history was reported.
+On Examination
+On admission she was conscious and oriented, with mild puffine"
+case-000459,AROGYA_SANJEEVANI_GCI,hard,medium,medium-route,Qwen3.6-27B,0.0089,0.8506,0.8595,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/9890736 Policy period 26/10/2025 to 25/10/2026
+Name of the
+insured person
+Sunita Sinha Age / Sex 38 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202678638342
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Tejaswini Superspeciality Hospital
+City Kanpur
+Date and time of admission 05/03/2026 1:45 PM
+Date and time of discharge 11/03/2026 6:00 PM
+Treating doctor Dr Suresh Kulkarni
+Room category Twin sharing
+Nature of illness or injury Cellulitis of the left lower limb with lymphangitis
+Total amount claimed Rs. 61,208
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Sunita Sinha
+Date: 11/03/2026
+Page 1 of 1
+
+## discharge_summary
+Tejaswini Superspeciality Hospital
+Kanpur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Sunita Sinha Age / Sex 38 years / Female
+Admitted 5 March 2026 1:45 PM Discharged 11 March 2026 6:00 PM
+Accommodation Twin sharing Treating doctor Dr Suresh Kulkarni
+Regn. No. UPMC/2013/32368
+DIAGNOSIS
+Final diagnosis Cellulitis of the left lower limb with lymphangitis
+PRESENTING COMPLAINTS
+Sunita Sinha came with pain, swelling and redness of the left lower limb, with streaks of redness extending
+upwards, of a few days duration.
+HISTORY
+The trouble had been going on for a few days. She had taken medicines at home for the pain and swelling before
+coming in, with little relief. No significant past history.
+ON EXAMINATION
+Sunita Sinha was conscious and oriented, of fair gene"
+case-000934,NEW_INDIA_MEDICLAIM,medium,medium,medium-route,Qwen3.6-27B,0.0244,0.877,0.9014,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/4311753 Policy period 24.09.2025 to 23.09.2026
+Name of the
+insured person
+Rahul Sharma Age / Sex 32 / Male
+Relationship to
+the policyholder
+Spouse Claim No. CL202513994865
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Kalpataru Superspeciality Hospital
+City Kochi
+Date and time of admission 21.10.2025 15:45 hrs
+Date and time of discharge 24.10.2025 20:00 hrs
+Treating doctor Dr Lakshmi Menon
+Room category General ward
+Nature of illness or injury Appendicitis (ICD-10 K35.8)
+Treatment or operation Appendix removal
+Total amount claimed ₹89,215
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Rahul Sharma
+Date: 24.10.2025
+Page 1 of 1
+
+## discharge_summary
+Kalpataru Superspeciality Hospital
+Kochi, India
+Department of Medical Records
+Discharge Summary
+Patient Rahul Sharma Age / Sex 32 years / Male
+Admitted 31 October 2025 15:45 hrs Discharged 3 November 2025 20:00 hrs
+Accommodation General ward Length of stay 3 days 4 hours
+Treating doctor Dr Lakshmi Menon Regn. No. TCMC/2005/63795
+Diagnosis
+Final diagnosis Appendicitis
+Procedure performed Appendix removal
+Presenting Complaints
+Rahul Sharma came in with pain in the abdomen and fever that had been troubling him for a short while.
+History
+The trouble had been going on for a few days before admission. He had taken some medicines at home without
+relief. There was no significant past history.
+On Examination
+On examination, Rahul Sharma was conscious and oriented, and look"
+case-000986,NEW_INDIA_MEDICLAIM,hard,hard,hard-route,Qwen3.6-27B,0.0321,0.8822,0.9143,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/3700384 Policy period 17.03.2025 to 16.03.2026
+Name of the
+insured person
+Deepak Pandey Age / Sex 18 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202559699777
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Tejaswini Superspeciality Hospital
+City Nagpur
+Date and time of admission 29.03.2025 01:00 hrs
+Date and time of discharge 03.04.2025 04:30 hrs
+Treating doctor Dr Pooja Mishra
+Room category Twin sharing
+Nature of illness or injury Dengue fever with warning signs
+Total amount claimed ₹40,159
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Deepak Pandey
+Date: 03.04.2025
+Page 1 of 1
+
+## discharge_summary
+Tejaswini Superspeciality Hospital
+Nagpur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Deepak Pandey Age / Sex 18 years / Male
+Admitted 03-May-2025 1:00 AM Discharged 08-May-2025 4:30 AM
+Accommodation Twin sharing Treating doctor Dr Pooja Mishra
+Regn. No. MMC/2013/54340
+DIAGNOSIS
+Final diagnosis Dengue fever with warning signs
+PRESENTING COMPLAINTS
+Deepak Pandey, a 18-year-old male, came in with a few days of high-grade fever with body ache and headache, and was
+admitted on 03-May-2025 1:00 AM with Dengue fever with warning signs.
+HISTORY
+The fever had been running for a few days before admission, with aching in the limbs and head. Simple fever medication had
+been taken at home without lasting relief. There is no significant past history.
+ON EXAMINATION
+At admission the patient was"
+case-000217,AROGYA_SANJEEVANI_GCI,medium,hard,hard-route,Qwen3.6-27B,0.0318,0.8492,0.881,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/4727633 Policy period 05/12/2025 to 04/12/2026
+Name of the
+insured person
+Sanjay Sinha Age / Sex 52 / Male
+Relationship to
+the policyholder
+Spouse Claim No. CL202617616035
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Chandrika Hospital
+City Jaipur
+Date and time of admission 18/06/2026 7:15 AM
+Date and time of discharge 22/06/2026 5:00 AM
+Treating doctor Dr Deepa Iyer
+Room category Single private AC
+Nature of illness or injury Asthma attack (ICD-10 J45.9)
+Total amount claimed Rs. 47,701
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Sanjay Sinha
+Date: 22/06/2026
+Page 1 of 1
+
+## discharge_summary
+Chandrika Hospital
+Jaipur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Sanjay Sinha Age / Sex 52 years / Male
+Admitted 18 June 2026 07:15 hrs Discharged 22 June 2026 05:00 hrs
+Accommodation Single private AC Length of stay 3 days 21 hours
+Treating doctor Dr Deepa Iyer Regn. No. RMC/2012/61418
+DIAGNOSIS
+Final diagnosis Asthma attack
+PRESENTING COMPLAINTS
+Sanjay Sinha came in with complaints of breathlessness and wheezing that had been troubling him for a short
+while before admission.
+HISTORY
+The trouble had been going on for some time and had been managed with medicines taken at home before
+coming in. There was no significant past history otherwise.
+ON EXAMINATION
+On examination, the patient was conscious and oriented, and in mild respiratory distress. The respiratory system
+showed bilateral whee"
+case-000036,AROGYA_SANJEEVANI_GCI,hard,medium,medium-route,Qwen3.6-27B,0.0047,0.8703,0.875,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/3176192 Policy period 27/06/2025 to 26/06/2026
+Name of the
+insured person
+Gaurav Sinha Age / Sex 30 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202660225637
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Devika Superspeciality Hospital
+City Nashik
+Date and time of admission 13/02/2026 7:45 AM
+Date and time of discharge 14/02/2026 10:30 AM
+Treating doctor Dr Tarun Fernandes
+Room category General ward
+Nature of illness or injury Comminuted fracture of the nasal bones, post-traumatic deformity
+Treatment or operation Post-traumatic reconstructive septorhinoplasty
+If an injury, how it occurred Sustained in a road traffic accident
+Total amount claimed Rs. 96,672
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Gaurav Sinha
+Date: 14/02/2026
+Page 1 of 1
+
+## discharge_summary
+Devika Superspeciality Hospital
+Nashik, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Gaurav Sinha Age / Sex 30 years / Male
+Admitted 13 February 2026 7:45 AM Discharged 14 February 2026 10:30 AM
+Accommodation General ward Treating doctor Dr Tarun Fernandes
+Regn. No. MMC/2013/68782
+DIAGNOSIS
+Final diagnosis Comminuted fracture of the nasal bones, post-traumatic deformity
+Procedure performed Post-traumatic reconstructive septorhinoplasty
+Nature of injury Sustained in a road traffic accident
+PRESENTING COMPLAINTS
+Gaurav Sinha came in with pain and swelling over the nose and a change in the shape of the nose following "
+case-000532,NEW_INDIA_MEDICLAIM,hard,hard,hard-route,Qwen3.6-27B,0.0975,0.8235,0.921,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/9719363 Policy period 08.09.2025 to 07.09.2026
+Name of the
+insured person
+Rahul Khan Age / Sex 74 / Male
+Relationship to
+the policyholder
+Parent Claim No. CL202653143027
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Devika Nursing Home
+City Guwahati
+Date and time of admission 05.07.2026 21:30 hrs
+Date and time of discharge 06.07.2026 12:15 hrs
+Treating doctor Dr Harish Fernandes
+Room category Not applicable
+Nature of illness or injury Senile nuclear cataract
+Treatment or operation Phacoemulsification with foldable intraocular lens implant
+Total amount claimed ₹56,723
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Rahul Khan
+Date: 06.07.2026
+Page 1 of 1
+
+## discharge_summary
+Devika Nursing Home
+Guwahati, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Rahul Khan Age / Sex 74 years / Male
+Admitted 05/07/2026 9:30 PM Discharged 06/07/2026 12:15 PM
+Treating doctor Dr Harish Fernandes Regn. No. AMC/2019/69966
+DIAGNOSIS
+Final diagnosis Senile nuclear cataract
+Procedure performed Phacoemulsification with foldable intraocular lens implant
+PRESENTING COMPLAINTS
+Rahul Khan, a 74-year-old male, came with gradually progressive painless dimness of vision in the affected eye,
+which had been troubling him for a long time.
+HISTORY
+The diminution of vision had been increasing over the months and had begun to interfere with his daily routine. No
+significant past history was reported.
+ON EXAMINATION
+On examinati"
+case-000508,NEW_INDIA_MEDICLAIM,hard,medium,medium-route,Qwen3.6-27B,0.0122,0.8841,0.8964,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/7278969 Policy period 01.08.2025 to 31.07.2026
+Name of the
+insured person
+Shalini Agarwal Age / Sex 30 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202576822511
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Arogyam Nursing Home
+City Kanpur
+Date and time of admission 03.10.2025 02:45 hrs
+Date and time of discharge 05.10.2025 07:00 hrs
+Treating doctor Dr Sunita Kulkarni
+Room category Twin sharing
+Nature of illness or injury Comminuted fracture of the nasal bones, post-traumatic deformity
+Treatment or operation Post-traumatic reconstructive septorhinoplasty
+If an injury, how it occurred Sustained in an injury sustained while playing
+Total amount claimed ₹1,11,626
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Shalini Agarwal
+Date: 05.10.2025
+Page 1 of 1
+
+## discharge_summary
+Arogyam Nursing Home
+Kanpur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Shalini Agarwal Age / Sex 30 years / Female
+Admitted 03/10/2025 02:45 hrs Discharged 05/10/2025 07:00 hrs
+Accommodation Twin sharing Treating doctor Dr Sunita Kulkarni
+Regn. No. UPMC/2015/61844
+DIAGNOSIS
+Final diagnosis Comminuted fracture of the nasal bones, post-traumatic deformity
+Procedure performed Post-traumatic reconstructive septorhinoplasty
+Nature of injury Sustained in an injury sustained while playing
+PRESENTING COMPLAINTS
+Shalini Agarwal came in with pain, swelling and deformity of the nose following an injury sustained whil"
+case-000850,NEW_INDIA_MEDICLAIM,easy,easy,easy-route,gemma-12b,-0.0125,0.9302,0.9177,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/8976515 Policy period 06.07.2025 to 05.07.2026
+Name of the
+insured person
+Meera Mishra Age / Sex 72 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202658622064
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Shravasti Nursing Home
+City Jaipur
+Date and time of admission 07.01.2026 22:45 hrs
+Date and time of discharge 13.01.2026 22:30 hrs
+Treating doctor Dr Pooja Kulkarni
+Room category General ward
+Nature of illness or injury Knee arthritis (ICD-10 M17.1)
+Treatment or operation Knee replacement
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 07.01.2026 ₹7,200
+2 Nursing charges 07.01.2026 ₹4,500
+3 Surgeon's fee 07.01.2026 ₹1,05,500
+4 Anaesthetist's fee 07.01.2026 ₹25,300
+5 Operation theatre charges 07.01.2026 ₹52,500
+6 Knee prosthesis 07.01.2026 ₹1,19,000
+7 Consultant visits 07.01.2026 ₹3,600
+8 Pharmacy and medicines 07.01.2026 ₹5,149
+9 Laboratory and imaging 07.01.2026 ₹7,072
+10 Medical consumables (syringes, IV sets) 07.01.2026 ₹2,278
+11 Visitor pass charges 07.01.2026 ₹960
+12 Alcohol swabs 07.01.2026 ₹920
+Room rent per day ₹1,200
+Total amount claimed ₹3,33,979
+Page 1 of 2
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Meera Mishra
+Date: 13.01.2026
+Page 2 of 2
+
+## discharge_summary
+Shravasti Nursing Home
+Jaipur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Meera Mishra Age / Sex 72 years / Female
+Admitted 07-Jan-2026 10:45 PM Discharged 13-Jan-2026 1"
+case-000683,NEW_INDIA_MEDICLAIM,easy,easy,easy-route,gemma-12b,-0.029,0.954,0.925,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/7778372 Policy period 26.08.2025 to 25.08.2026
+Name of the
+insured person
+Usha Gupta Age / Sex 49 / Female
+Relationship to
+the policyholder
+Spouse Claim No. CL202695147581
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Shravasti Nursing Home
+City Kanpur
+Date and time of admission 11.03.2026 18:00 hrs
+Date and time of discharge 17.03.2026 21:45 hrs
+Treating doctor Dr Shalini Saxena
+Room category Twin sharing
+Nature of illness or injury Coronary artery disease (ICD-10 I25.1)
+Treatment or operation Bypass surgery
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Twin sharing) 11.03.2026 ₹12,500
+2 ICU charges (incl. nursing and monitoring) 11.03.2026 ₹58,000
+3 Nursing charges 11.03.2026 ₹3,250
+4 Surgeon's fee 11.03.2026 ₹1,91,000
+5 Anaesthetist's fee 11.03.2026 ₹53,400
+6 Operation theatre charges 11.03.2026 ₹1,14,000
+7 Consultant visits 11.03.2026 ₹7,700
+8 Pharmacy and medicines 11.03.2026 ₹55,841
+9 Laboratory and imaging 11.03.2026 ₹24,569
+10 Medical consumables (syringes, IV sets) 11.03.2026 ₹1,958
+11 Toiletries 11.03.2026 ₹1,390
+Room rent per day ₹2,500
+Intensive care per day ₹29,000
+Total amount claimed ₹5,23,608
+Page 1 of 2
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Usha Gupta
+Date: 17.03.2026
+Page 2 of 2
+
+## discharge_summary
+Shravasti Nursing Home
+Kanpur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Usha Gupta Age / Sex 49 years / Female
+Admitted 11-Mar-2026 18:00 hrs "
+case-000042,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0413,0.9536,0.9123,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/3978799 Policy period 27/07/2025 to 26/07/2026
+Name of the
+insured person
+Karan Das Age / Sex 57 / Male
+Relationship to
+the policyholder
+Self Claim No. CL202591249934
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Chandrika Multispeciality Hospital
+City Coimbatore
+Date and time of admission 07/09/2025 10:15 AM
+Date and time of discharge 11/09/2025 3:30 PM
+Treating doctor Dr Sana Khan
+Room category Single private AC
+Nature of illness or injury Urinary tract infection (ICD-10 N39.0)
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (Single private AC) 07/09/2025 Rs. 22,500
+2 Nursing charges 07/09/2025 Rs. 2,000
+3 Consultant visits 07/09/2025 Rs. 3,750
+4 Pharmacy and medicines 07/09/2025 Rs. 6,708
+5 Laboratory and imaging 07/09/2025 Rs. 4,496
+6 Medical consumables (syringes, IV sets) 07/09/2025 Rs. 2,225
+7 Laundry charges 07/09/2025 Rs. 980
+8 Protein supplement powder (over the counter, not prescribed) 07/09/2025 Rs. 3,500
+Room rent per day Rs. 4,500
+Total amount claimed Rs. 46,159
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Karan Das
+Date: 11/09/2025
+Page 1 of 1
+
+## discharge_summary
+Chandrika Multispeciality Hospital
+Coimbatore, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Karan Das Age / Sex 57 years / Male
+Admitted 07.09.2025 10:15 AM Discharged 11.09.2025 3:30 PM
+Accommodation Single private AC Length of stay 4 days 5 hours
+Treating doctor Dr Sana Khan Regn. No. TNMC/2"
+case-000507,NEW_INDIA_MEDICLAIM,hard,hard,hard-route,Qwen3.6-27B,0.097,0.8262,0.9233,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/5148763 Policy period 03.03.2025 to 02.03.2026
+Name of the
+insured person
+Imran Das Age / Sex 83 / Male
+Relationship to
+the policyholder
+Parent Claim No. CL202566616713
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Kalpataru Superspeciality Hospital
+City Nagpur
+Date and time of admission 23.10.2025 03:00 hrs
+Date and time of discharge 23.10.2025 23:30 hrs
+Treating doctor Dr Rahul Sinha
+Room category Not applicable
+Nature of illness or injury Senile nuclear cataract
+Treatment or operation Phacoemulsification with foldable intraocular lens implant
+Total amount claimed ₹1,15,788
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Imran Das
+Date: 23.10.2025
+Page 1 of 1
+
+## discharge_summary
+Kalpataru Superspeciality Hospital
+Nagpur, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Imran Das Age / Sex 83 years / Male
+Admitted 23/10/2025 03:00 hrs Discharged 23/10/2025 23:30 hrs
+Treating doctor Dr Rahul Sinha Regn. No. MMC/2005/43175
+DIAGNOSIS
+Final diagnosis Senile nuclear cataract
+Procedure performed Phacoemulsification with foldable intraocular lens implant (2 sites)
+PRESENTING COMPLAINTS
+Imran Das came with complaints of gradual painless diminution of vision in the affected eye for a long duration,
+with difficulty in performing routine activities.
+HISTORY
+The patient had been experiencing progressive blurring of vision for a considerable period, which had worsened
+over time. No significant past histor"
+case-000381,AROGYA_SANJEEVANI_GCI,hard,medium,medium-route,Qwen3.6-27B,0.0078,0.9044,0.9121,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/1863155 Policy period 04/09/2025 to 03/09/2026
+Name of the
+insured person
+Divya Sharma Age / Sex 66 / Female
+Relationship to
+the policyholder
+Parent Claim No. CL202555649840
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Vasundhara Medical Centre
+City Pune
+Date and time of admission 08/09/2025 7:30 PM
+Date and time of discharge 09/09/2025 8:30 AM
+Treating doctor Dr Zoya Chatterjee
+Room category General ward
+Nature of illness or injury Acute infectious gastroenteritis with moderate dehydration
+Total amount claimed Rs. 30,345
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Divya Sharma
+Date: 09/09/2025
+Page 1 of 1
+
+## discharge_summary
+Vasundhara Medical Centre
+Pune, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Divya Sharma Age / Sex 66 years / Female
+Admitted 08.09.2025 19:30 hrs Discharged 09.09.2025 08:30 hrs
+Accommodation General ward Treating doctor Dr Zoya Chatterjee
+Regn. No. MMC/1997/21123
+DIAGNOSIS
+Final diagnosis Acute infectious gastroenteritis with moderate dehydration
+PRESENTING COMPLAINTS
+Divya Sharma came in with loose motions and vomiting that had been troubling her for a short while, along with weakness
+and reduced intake of food and fluids.
+HISTORY
+The trouble had been going on for a few days before admission. She had tried home remedies and oral fluids without much
+relief. There was no significant past history of any long-standing illness.
+ON EXAMINATION
+On admission she w"
+case-000246,AROGYA_SANJEEVANI_GCI,easy,easy,easy-route,gemma-12b,-0.0331,0.9646,0.9315,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Sanchit Bharat General Insurance Company Limited
+Sanchit House, 4th Floor, Plot 22, Bandra Kurla Complex, Mumbai 400 051
+Arogya Sanjeevani Policy | UIN SBGIHLIP26001V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. ASP/2025/3892226 Policy period 09/05/2025 to 08/05/2026
+Name of the
+insured person
+Rekha Sinha Age / Sex 43 / Female
+Relationship to
+the policyholder
+Spouse Claim No. CL202591213127
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Kalpataru Medical Centre
+City Madurai
+Date and time of admission 24/11/2025 6:15 AM
+Date and time of discharge 25/11/2025 11:30 AM
+Treating doctor Dr Gaurav Pillai
+Room category General ward
+Nature of illness or injury Acute gastroenteritis (ICD-10 A09.0)
+PART C — EXPENSES CLAIMED
+Sl Particulars Date Amount
+1 Room rent (General ward) 24/11/2025 Rs. 2,600
+2 Nursing charges 24/11/2025 Rs. 1,200
+3 Consultant visits 24/11/2025 Rs. 2,100
+4 Pharmacy and medicines 24/11/2025 Rs. 4,874
+5 Laboratory and imaging 24/11/2025 Rs. 7,094
+6 Medical consumables (syringes, IV sets) 24/11/2025 Rs. 1,675
+7 Documentation charges 24/11/2025 Rs. 230
+Room rent per day Rs. 1,300
+Total amount claimed Rs. 19,773
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Rekha Sinha
+Date: 25/11/2025
+Page 1 of 1
+
+## discharge_summary
+Kalpataru Medical Centre
+Madurai, India
+Department of Medical Records
+DISCHARGE SUMMARY
+Patient Rekha Sinha Age / Sex 43 years / Female
+Admitted 24/11/2025 06:15 hrs Discharged 25/11/2025 11:30 hrs
+Accommodation General ward Length of stay 1 day 5 hours
+Treating doctor Dr Gaurav Pillai Regn. No. TNMC/1995/54196
+DIAGNOSIS
+Final diagnosis Acute gastroenteritis
+PRESENTING COMPLAINTS
+Rekha Sinha, a 43-ye"
+case-000940,NEW_INDIA_MEDICLAIM,hard,medium,medium-route,Qwen3.6-27B,0.0111,0.901,0.9122,2000,"Settle this health insurance claim from the documents below.
+
+## claim_form
+Pragati Sarvodaya General Insurance Company Limited
+Sarvodaya Towers, 2nd Floor, 14 Cathedral Road, Chennai 600 086
+Sarvodaya Mediclaim Policy | UIN PSGIHLIP26002V012627
+CLAIM FORM — REIMBURSEMENT OF HOSPITALISATION EXPENSES
+PART A — DETAILS OF THE INSURED
+Policy No. NIM/2025/4808406 Policy period 28.08.2025 to 27.08.2026
+Name of the
+insured person
+Meera Gupta Age / Sex 47 / Female
+Relationship to
+the policyholder
+Self Claim No. CL202618380737
+PART B — DETAILS OF THE HOSPITALISATION
+Name of the hospital Yashodhan Multispeciality Hospital
+City Chandigarh
+Date and time of admission 14.05.2026 20:15 hrs
+Date and time of discharge 19.05.2026 04:30 hrs
+Treating doctor Dr Ananya Nair
+Room category General ward
+Nature of illness or injury Hypertensive heart disease with congestive heart failure
+Total amount claimed ₹76,429
+I declare that the particulars given above are true to the best of my knowledge and belief, and that the treatment described was taken by the
+insured person named above. I have not withheld any material information.
+Signature of the insured person: Meera Gupta
+Date: 19.05.2026
+Page 1 of 1
+
+## discharge_summary
+Yashodhan Multispeciality Hospital
+Chandigarh, India
+Department of Medical Records
+Discharge Summary
+Patient Meera Gupta Age / Sex 47 years / Female
+Admitted 14.05.2026 8:15 PM Discharged 19.05.2026 4:30 AM
+Accommodation General ward Intensive care 1 day
+Treating doctor Dr Ananya Nair Regn. No. PMC/1999/49958
+Diagnosis
+Final diagnosis Hypertensive heart disease with congestive heart failure
+Presenting Complaints
+Meera Gupta came in with breathlessness on exertion and at rest, swelling of both feet, and a feeling of the heart beating fast,
+all of which had been worsening over the recent past.
+History
+The trouble had been going on for some time before admission, and the patient had been taking medicines for high blood
+pressure for a long while. There was no significant past h"
