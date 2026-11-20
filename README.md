@@ -25,7 +25,6 @@ The 97% is optimistic: the cut-offs were chosen from results on the same 300 tes
 ## 2. Architecture
 
 ```
-![Architecture: client, LiteLLM, vLLM Semantic Router, gemma-12b and Qwen3.6-27B](docs/figures/architecture.png)
 
 Client / agent
    |  OpenAI-compatible request, model "auto", virtual key
@@ -40,6 +39,9 @@ vLLM Semantic Router  (Docker, routed listener 8999)
 gemma-12b (easy)                Qwen3.6-27B (medium, hard)
 10.68.0.47:8000                 172.17.0.1:9000  (SSH tunnel; proxy in front, see section 7)
 ```
+![Architecture: client, LiteLLM, vLLM Semantic Router, gemma-12b and Qwen3.6-27B](docs/figures/architecture.png)
+
+*The diagram shows the general design. In the tested system the model garden contained only gemma-12b and Qwen3.6-27B; no proprietary model was called.*
 
 How the router decides: it embeds the prompt (mmBERT, CPU) and compares it with 40 easy and 40 hard example prompts in the config. Margin = hard score minus easy score. Margin at or below -0.01 is easy, above 0.027 is hard, in between is medium. Decisions, highest priority first: `hard-route` (200) and `medium-route` (175) go to Qwen3.6-27B, `easy-route` (150) and `default-route` (100) go to gemma-12b. There is no training step.
 
