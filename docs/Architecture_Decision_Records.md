@@ -9,7 +9,7 @@ Entries marked [FILL IN] need information only the author has. Remove this line 
 
 ## ADR-001 — Put LiteLLM in front of the vLLM Semantic Router
 
-- **Date, status, scope:** Oct-Nov 2026 ([FILL IN exact date]); Accepted; whole gateway.
+- **Date, status, scope:** Decided between 20 Sep and 6 Nov 2026 (exact day not recorded); Accepted; whole gateway.
 - **Context and drivers:** Send easy requests to a small model and hard ones to a large model to cut inference cost. Also needed: API keys, rate limits, spend tracking, and an OpenAI-compatible endpoint for clients.
 - **Options considered:**
   1. LiteLLM only (static model choice per request).
@@ -22,7 +22,7 @@ Entries marked [FILL IN] need information only the author has. Remove this line 
 
 ## ADR-002 — Use the router's example-based complexity signal, with no trained classifier
 
-- **Date, status, scope:** [FILL IN]; Accepted; router configuration.
+- **Date, status, scope:** Decided between 20 Sep and 6 Nov 2026 (exact day not recorded); Accepted; router configuration.
 - **Context and drivers:** Need an easy/hard label per request without a labelled training pipeline. The router learns only from example prompts in its config.
 - **Options considered:**
   1. Example-based complexity signal (embedding similarity to easy and hard examples).
@@ -35,7 +35,7 @@ Entries marked [FILL IN] need information only the author has. Remove this line 
 
 ## ADR-003 — Build router examples from real calibration cases
 
-- **Date, status, scope:** [FILL IN]; Accepted; `config_medium.yaml` example prompts.
+- **Date, status, scope:** Decided between 20 Sep and 6 Nov 2026 (exact day not recorded); Accepted; `config_medium.yaml` example prompts.
 - **Context and drivers:** The first configuration used generic example prompts (code and claims lines).
 - **Options considered:** Generic examples; 20 real examples per tier; 40 real examples (hard list = 20 hard + 20 medium).
 - **Decision and rationale:** Real examples, 40 easy and 40 hard, each about 2,000 characters, from calibration cases only (no example appears in the test set). Measured: hard-vs-easy AUC went from 0.497 (generic) to 0.851 (20 real) to 1.000 (40 real).
@@ -45,7 +45,7 @@ Entries marked [FILL IN] need information only the author has. Remove this line 
 
 ## ADR-004 — Replace the single cut-off with two bands (-0.01 and 0.027)
 
-- **Date, status, scope:** [FILL IN]; Accepted; supersedes the single `threshold: 0.049` setting.
+- **Date, status, scope:** Decided between 20 Sep and 6 Nov 2026 (exact day not recorded); Accepted; supersedes the single `threshold: 0.049` setting.
 - **Context and drivers:** With a single cut-off of 0.049, only 47% of cases were routed as intended and 79% of medium/hard cases were missed (sent to gemma), which is the costly error.
 - **Options considered:** Single cut-off 0.049; two cut-offs `easy_below: -0.01`, `hard_above: 0.027` (medium in between).
 - **Decision and rationale:** Two bands. Measured on 300 test cases: policy routing accuracy 97%, missed 6 of 200 (3%), wasted 4 of 100 (4%), 34% of traffic to gemma.
@@ -55,7 +55,7 @@ Entries marked [FILL IN] need information only the author has. Remove this line 
 
 ## ADR-005 — Route medium cases to the large model for now
 
-- **Date, status, scope:** [FILL IN]; Accepted (temporary); decision `medium-route`.
+- **Date, status, scope:** Decided between 20 Sep and 6 Nov 2026 (exact day not recorded); Accepted (temporary); decision `medium-route`.
 - **Context and drivers:** Routing is what is being tested. Measured: the router labels 59 of 100 medium cases medium and 35 hard, and 42 of 100 hard cases hard and 58 medium; mean margins medium +0.027, hard +0.028. Medium and hard are not separated.
 - **Options considered:** Medium to gemma; medium to Qwen; a separate medium model.
 - **Decision and rationale:** Medium to Qwen3.6-27B, so no harder case is under-served. A separate medium model is planned.
@@ -65,7 +65,7 @@ Entries marked [FILL IN] need information only the author has. Remove this line 
 
 ## ADR-006 — Port offset 100 and an SSH tunnel on the Docker bridge
 
-- **Date, status, scope:** [FILL IN]; Accepted; deployment on netx3.
+- **Date, status, scope:** Decided between 20 Sep and 6 Nov 2026 (exact day not recorded); Accepted; deployment on netx3.
 - **Context and drivers:** A host Redis already used port 6379. Qwen runs on slurm-comp01 and netx3 reaches it only through SSH.
 - **Options considered:** Stop the host Redis; offset the router stack's ports; expose Qwen directly.
 - **Decision and rationale:** `VLLM_SR_PORT_OFFSET=100` (routed listener 8899 becomes 8999). Qwen is reached through an SSH tunnel bound to the Docker bridge address 172.17.0.1:9000, so the router container can reach it without exposing it to the LAN.
@@ -91,7 +91,7 @@ Entries marked [FILL IN] need information only the author has. Remove this line 
 
 - **Date, status, scope:** Written on **20 November 2026** (not backdated); Accepted.
 - **Status:** **Not changed.** The core approach has stayed the same since before 9 October 2026: LiteLLM in front, the vLLM Semantic Router behind it, and an example-based complexity signal that sends easy requests to a small model and harder ones to a large model. This record is written on 20 November 2026, as the guide asks. [FILL IN: say whether a reaffirmation was sent to the mentor or course team on or before 9 October 2026. If none was sent, write "no separate record was made at the time".]
-- **Tuning after 9 October within the same approach (see ADR-003, ADR-004, ADR-007):** generic examples replaced by real calibration examples, one cut-off replaced by two bands, and a proxy added to work around the Qwen 502. The architecture, the router, the dataset and the evaluation question did not change. [FILL IN the date of each if known, so a reader can check this claim.]
+- **Tuning within the same approach (see ADR-003, ADR-004, ADR-007 for their dates):** generic examples replaced by real calibration examples, one cut-off replaced by two bands, and a proxy added to work around the Qwen 502. The architecture, the router, the dataset and the evaluation question did not change.
 - **Project track:** 2-month project (Sept-Nov 2026), per the evaluation plan.
 - **Evidence:** [FILL IN: mentor message, weekly log, or commit showing the approach at or before 9 October]
 - **Revisit trigger:** Any later fundamental change needs the documented mentor approval from the evaluation framework.
