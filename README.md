@@ -25,6 +25,8 @@ The 97% is optimistic: the cut-offs were chosen from results on the same 300 tes
 ## 2. Architecture
 
 ```
+![Architecture: client, LiteLLM, vLLM Semantic Router, gemma-12b and Qwen3.6-27B](docs/figures/architecture.png)
+
 Client / agent
    |  OpenAI-compatible request, model "auto", virtual key
    v
