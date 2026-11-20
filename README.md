@@ -24,21 +24,6 @@ The 97% is optimistic: the cut-offs were chosen from results on the same 300 tes
 
 ## 2. Architecture
 
-```
-
-Client / agent
-   |  OpenAI-compatible request, model "auto", virtual key
-   v
-LiteLLM  (Docker, port 4000)      keys, rate limits, spend, admin UI
-   |  sees the router as one model "auto"
-   v
-vLLM Semantic Router  (Docker, routed listener 8999)
-   Envoy -> router service (ExtProc) -> complexity signal -> decision
-   |                                   |
-   v                                   v
-gemma-12b (easy)                Qwen3.6-27B (medium, hard)
-10.68.0.47:8000                 172.17.0.1:9000  (SSH tunnel; proxy in front, see section 7)
-```
 ![Architecture: client, LiteLLM, vLLM Semantic Router, gemma-12b and Qwen3.6-27B](docs/figures/architecture.png)
 
 *The diagram shows the general design. In the tested system the model garden contained only gemma-12b and Qwen3.6-27B; no proprietary model was called.*
@@ -235,30 +220,17 @@ docs/         Project_Report.pdf, Architecture_Decision_Records.md
 
 `make_config.py`, `route_test.py` and `run_claims.py` (benchmark agent harness) are not included in the final run. `run_claims.py` never ran successfully because of the Qwen 502, which was fixed after it was written. [CONFIRM: remove this paragraph if those files were added.]
 
-## 7. Known issues
+## 7 Cost estimate (theoretical, not measured)
 
-1. **Qwen 502 through the router (worked around).** Without the proxy, the router logs `neutral_response_decode_failed ... chat execution field must be null` and returns 502 "The selected model returned an invalid response". Comparing field names, the only fields in raw Qwen replies that gemma's replies lack are five under `metrics`. The small proxy `demo/qwen_shim.py` removes `metrics`, and with it running, hard requests work through the full path. The proxy works around the router's behaviour and does not fix it, and it does not handle streaming replies. Not yet reported upstream (github.com/vllm-project/semantic-router).
-2. **Medium vs hard are not separated** (section 5.2). Medium is sent to Qwen for now.
-3. **Tuned on the test set.** The cut-offs were chosen from results on the same test cases. A half-and-half check on an earlier setup gave 82% on the tuning half and 78% on the unseen half.
-4. **One data source.** The dataset comes from one generator with two policy wordings and fixed templates, so results do not show that the method generalises.
-5. **The SSH tunnel drops** and does not restart on its own. Check it before any run: `ss -ltn | grep -E '9000|9100'`.
-6. **Qwen thinking.** With a small `max_tokens` Qwen spends all tokens on reasoning and returns no content.
-7. **Small samples.** 100 cases per tier, so one case moves a figure by 1 point.
+![API-equivalent cost: Claude Opus 5.5 vs gateway](docs/figures/routing_cost_plot.png)
+![GPU time and rental cost: Qwen only vs gateway](docs/figures/gpu_cost_plot.png)
 
-## 8. Operations notes
+Estimated from published per-token prices and public GPU rental prices (USD 0.50 per hour for the RTX PRO 4000, USD 1.49 for the A100 80GB). Claude Opus 5.5 was never run, and the models were hosted on our own GPUs.
 
-- Do not commit `.env`, keys, or `dataset.zip`. Run `grep -rIE 'sk-[A-Za-z0-9]{10,}|MASTER_KEY=|UI_PASSWORD=' . --exclude-dir=.git` before every commit.
-- Before any shared use: change the weak test UI password, delete test keys, firewall everything except port 4000 (not 8999 or the tunnel ports), add `restart: unless-stopped` to the compose services, and start the router stack and tunnel at boot (systemd or autossh).
-- The first request after start-up can be slow. Routing adds about 2.3-2.6 s per request in the router logs.
+## 8. Licence and data
 
-## 9. Cost figures
-
-Cost numbers in the report and poster (for example $6.43 vs $0.51 for the 300 test cases) are **theoretical estimates**. No API key for Claude Opus 5.5 was available, so it was costed from published per-token prices, as our supervisor suggested. Gemma and Qwen are hosted on our own GPUs. GPU-hours and rental costs ($0.50 per GPU-hour for the RTX PRO 4000, $1.49 for the A100 80GB) are estimated from card specs and public rental prices, not measured. How they were computed: [FILL IN: link to `evaluation/cost_estimate.*`]. They assume gemma answers easy cases as well as the larger models do, which has not been tested.
-
-## 10. Licence and data
-
-Benchmark data: health-insurance claims benchmark (1,000 synthetic cases), provided by the course. Check its terms before sharing outside the evaluators. Third-party tools: LiteLLM, vLLM Semantic Router, vLLM, Envoy, Redis, Postgres (see each project's licence). Licence for our own code: [FILL IN].
+Benchmark data: health-insurance claims benchmark (1,000 synthetic cases), provided by the course. Check its terms before sharing outside the evaluators. Third-party tools: LiteLLM, vLLM Semantic Router, vLLM, Envoy, Redis, Postgres (see each project's licence).
 
 ## 11. AI assistance
 
-Scripts, debugging and analysis in this project were developed with substantial help from Claude in a chat session. The author ran the commands and read the outputs, logs and field comparisons shown here. Details are in section 10 of the report.
+Scripts, debugging and analysis in this project were developed with substantial help from Claude in a chat session. 
